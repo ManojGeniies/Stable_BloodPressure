@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+	<resourceTitle><![CDATA[Video]]></resourceTitle>
+	<closeTitle><![CDATA[Close]]></closeTitle>
+	<Resources>
+		 <!-- Section 01 -->
+		 <!-- <Resource URL="" isSectionTitle="true" isPageID="false"><![CDATA[Getting Started]]></Resource> -->		 
+		  <!-- <Resource isSectionTitle="false" isPageID="false" URL="https://www.youtube.com/watch?v=fou0jucRUIA"><![CDATA[S T A B L E Model of Care ARAR Behaviors 2013]]></Resource>		  -->
+		 <Resource isSectionTitle="false" isPageID="false" URL="pages/video/Subgaleal_hemorrhage.mp4"><![CDATA[Subgaleal hemorrhage]]></Resource>		
+	</Resources>
+</Root>

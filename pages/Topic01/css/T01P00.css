@@ -1,0 +1,117 @@
+.yellowBorder:after {
+    content: "";
+    position: absolute;
+    width: 463px;
+    height: 55px;
+    border: 2px solid #B80F0A;
+    border-radius: 5px;
+    left: -86px;
+    top: -5px;
+}
+
+.mainContainer {
+    position: absolute;
+    width: 1000px;
+    height: 460px;
+    left:51px;
+    top: 20px;
+    opacity: 1;
+}
+
+.clsCircle {
+    position: absolute;
+    -ms-transform: matrix(0, 0, 0, 0, 0, 0);
+    -wbkit-transform: matrix(0, 0, 0, 0, 0, 0);
+    transform: matrix(0, 0, 0, 0, 0, 0);
+}
+
+#idCircle01 {
+    left: 40px;
+    top: 90px;
+    width: 288px;
+    height: 288px;
+    background: url("../../../pages/images/Topic01/T01P00/01.png") no-repeat;
+    background-size: contain;
+}
+
+.clsPatch {
+    position: absolute;
+    width: 0px;
+    height: 236px;
+}
+
+#idPatch1 {
+    top: 155px;
+    left: 220px;
+    background-position: left;
+    height: 167px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: none;
+    color: #000000;
+    -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+}
+
+.clsText {
+    position: absolute;
+    font-size: 21px;
+    font-family: OpenSansRegular;
+    opacity: 0;
+}
+
+#idText1 {
+    top: 28px;
+    left: 170px;
+    width: 585px;
+    line-height: 1.5;
+}
+
+.clsBold {
+    /* font-weight: bold; */
+    font-family: OpenSansSemiBold;
+    color: #B80F0A;
+}
+
+.clsIcon {
+    position: absolute;
+    background: url("../../../pages/images/Topic01/T01P00/Icon01.png");
+    width: 35px;
+    height: 34px;
+    left: 33px;
+    top: 55px;
+    background-size: contain;
+    display: none;
+}
+
+.clsNextText {
+    position: absolute;
+    font-size: 16px;
+    font-family: OpenSansRegular;
+    width: 385px;
+    top: 50px;
+    left: 90px;
+    display: none;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .custom-width {
+        width:450px !important;
+       
+    }
+    .yellowBorder:after {
+        content: "";
+        position: absolute;
+        width:500px !important;
+     
+    }
+}
+
+.boxInst {
+    position: absolute;
+    top: 485px;
+    left: 854px;
+}

@@ -1,0 +1,179 @@
+.mainContainer {
+    position: absolute;
+    width: 100%;
+    height: 460px;
+    left: 0px;
+    top: 0px;
+    opacity: 1;
+}
+
+#box1 {
+    position: absolute;
+    height: 135px;
+    width: 355px;
+    opacity: 0;
+    top: 20px;
+    left:120px;
+}
+
+#box2 {
+    position: absolute;
+    height: 135px;
+    width: 355px;
+    opacity: 0;
+    top: 20px;
+    left: 620px;
+}
+
+#box3 {
+    position: absolute;
+    height: 135px;
+    width: 364px;
+    opacity: 0;
+    top: 172px;
+    left: 127px;
+}
+
+#box4 {
+    position: absolute;
+    height: 140px;
+    width: 355px;
+    opacity: 0;
+    top: 172px;
+    left: 615px;
+}
+
+.clsIcon {
+    position: absolute;
+    opacity: 0;
+}
+
+.icon-container {
+    position: absolute;
+    width: 100%;
+    top: 190px;
+    left: 0px;
+    height: 350px;
+    background: #ffffff;
+}
+
+#idIcon01 {
+    position: relative;
+    width: 58px;
+    height: 54px;
+    left: 0px;
+    top: 0px;
+    background: url(../../../pages/images/Topic01/T01P01/01.png) no-repeat;
+    margin: 0px auto;
+    background-size: contain;
+}
+
+#idIcon02 {
+    position: relative;
+    width: 58px;
+    height: 52px;
+    margin: 0px auto;
+    left: 0px;
+    top: 0PX;
+    background: url("../../../pages/images/Topic01/T01P01/02.png") no-repeat;
+    background-size: contain;
+}
+
+#idIcon03 {
+    position: relative;
+    width: 58px;
+    height: 54px;
+    margin: 0px auto;
+    left: 0px;
+    top: 0PX;
+    background: url("../../../pages/images/Topic01/T01P01/03.png") no-repeat;
+    background-size: contain;
+}
+
+#idIcon04 {
+    position: relative;
+    width: 58px;
+    height: 54px;
+    margin: 0px auto;
+    top: 0px;
+    left: 0px;
+    background: url("../../../pages/images/Topic01/T01P01/01.png") no-repeat;
+    background-size: contain;
+}
+
+
+.clsText {
+    position: absolute;
+    font-size: 16px;
+    font-family: OpenSansRegular;
+    text-align: center;
+    color: #000000;
+    bottom: 86px;
+    /*106px*/
+    opacity: 0;
+}
+
+#idText1 {
+    top: 65PX;
+    left: 0px;
+    width:100%;
+    height: 95px;
+}
+
+#idText2 {
+    top: 65PX;
+    left: 0px;
+    width:100%;
+    height: 95px;
+}
+
+#idText3 {
+    top: 65PX;
+    left: 0px;
+    width:100%;
+    height: 95px;
+}
+
+#idText4 {
+    top: 65PX;
+    left: 0px;
+    width:100%;
+    height: 95px;
+}
+
+#idText5 {
+    top: 65PX;
+    left: 0px;
+    width:100%;
+    height: 95px;
+}
+
+.boxInst {
+    position: absolute;
+    top: 316px;
+    left: 904px;
+}
+
+.banner-img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1085px;
+    height: 190px;
+    background: url('../../../pages/images/Topic01/T01P01/module_objective_banner.png') no-repeat;
+    background-size: cover;
+    background-color: #ffffff;
+}
+
+.headerTopRight {
+    position: absolute;
+    top: 12px;
+    left: 210px;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-family: OpenSansSemiBold;
+}
+
+.headerTopRight span {}
+
+.headerTopRight img.sugar_and_safe_care {}

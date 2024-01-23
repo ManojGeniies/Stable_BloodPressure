@@ -1,0 +1,164 @@
+#contentFrame {
+    overflow-y: inherit !important;
+}
+
+.mainContainer {
+    position: absolute;
+    width: 1085px;
+    height: 540px;
+    left: 0px;
+    top: 0px;
+    opacity: 1;
+}
+
+
+
+.mainScroll #mCSB_1_scrollbar_vertical {
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    background: #e6e4e4;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    width: 8px;
+}
+
+.mainScroll #mCSB_1_scrollbar_vertical .mCSB_draggerContainer {
+    box-shadow: none;
+    background: none;
+}
+
+.mainScroll #mCSB_1_scrollbar_vertical .mCSB_draggerContainer {
+    box-shadow: none;
+    margin-left: 0px;
+    margin-right: 4px;
+    background: none;
+    margin-bottom: 35px;
+}
+
+.mainScroll #mCSB_1_scrollbar_vertical .mCSB_draggerContainer .mCSB_dragger_bar {
+    background: #707070;
+    margin: 0px;
+    left: 2px;
+    width: 4px;
+}
+
+.mainScroll .mCS-3d-thick.mCSB_scrollTools .mCSB_buttonUp {
+    display: block;
+    box-sizing: border-box;
+    height: 9px;
+    width: 9px;
+    border-style: solid;
+    border-color: #707070;
+    border-width: 0px 2px 2px 0px;
+    transform: rotate(-138deg);
+    -webkit-transform: rotate(-138deg);
+    -moz-transform: rotate(-138deg);
+    -ms-transform: rotate(-138deg);
+    -o-transform: rotate(-138deg);
+    transition: border-width 150ms ease-in-out;
+    margin-left: 3px;
+    opacity: 1;
+    margin-top: 5px;
+    z-index: 10;
+    display: none !important;
+}
+
+.mainScroll .mCS-3d-thick.mCSB_scrollTools .mCSB_buttonDown {
+    display: block;
+    box-sizing: border-box;
+    height: 9px;
+    width: 9px;
+    border-style: solid;
+    border-color: #707070;
+    border-width: 0px 2px 2px 0px;
+    transform: rotate(41deg);
+    -webkit-transform: rotate(41deg);
+    -moz-transform: rotate(41deg);
+    -ms-transform: rotate(41deg);
+    -o-transform: rotate(41deg);
+    transition: border-width 150ms ease-in-out;
+    margin-left: 3px;
+    opacity: 1;
+    margin-top: 0px;
+    bottom: 20px;
+    z-index: 10;
+    top: auto;
+    display: none !important;
+}
+
+.mainScroll .mCustomScrollbar {
+    /* background: url(media/images/player/common/bg.png) no-repeat; */
+    background: #ffffff;
+}
+
+.clsVideoContainer {
+    width: 922px;
+    margin: 0px auto;
+    position: absolute;
+    top:24px;
+    left: 120px;
+    height: 467px;
+}
+
+.clsVideoContainer video {
+    width: 90%;
+    height: 467px;
+    outline: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+
+.mainScroll #mCSB_1_scrollbar_vertical .mCSB_draggerContainer {
+    /* display:none; */
+}
+
+
+video::-internal-media-controls-download-button {
+    display: none;
+}
+
+video::-webkit-media-controls-enclosure {
+    overflow: hidden;
+}
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px);
+    /* Adjust as needed */
+}
+
+video::-internal-media-controls-overflow-button {
+    display: none;
+}
+
+video::-internal-media-controls-overflow-button {
+    display: none;
+}
+
+.videoInstruction {
+    font-size: 10px;
+    font-family: OpenSansRegular;
+    position: relative;
+    top: 0;
+    color: #000000;
+    font-style: italic;
+    text-align: left;
+    width: 90%;
+}
+
+.patch {
+    position: absolute;
+    top: 32px;
+    height: 468px;
+    width: 832px;
+    z-index: 99999;
+    opacity: 0;
+    left: 119px;
+    cursor: pointer;
+    display: none;
+}
+
+

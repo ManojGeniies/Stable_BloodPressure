@@ -1,0 +1,178 @@
+
+.mainContainer {
+    position: absolute;
+    width: 1000px;
+    height: 460px;
+    left: 40px;
+    top: 20px;
+    opacity: 1;
+}
+
+@-webkit-keyframes reducetime {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes zoomin {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes zoomin {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+/*End of Zoom in Keyframes */
+/* Zoom out Keyframes */
+
+@-webkit-keyframes zoomout {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.67);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes zoomout {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.67);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+/*End of Zoom out Keyframes */
+.clsPatch {
+    top: 22px;
+    left: 2px;
+    background-position: left;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    width: 960px;
+    -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    padding: 10px 20px;
+}
+.clsText {
+    position: relative;
+    top: 8px;
+    left: 0px;
+    width: 100%;
+    text-align: left;
+    font-family: OpenSansRegular;
+    font-size: 16px;
+    opacity: 1;
+}
+.ClsImage{
+    left: 0;
+    width:47%;
+    top: 70px;
+    height:397px;
+    position: absolute;
+    background: #fff;
+    -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 2px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.ClsImage.one{
+    padding-top: 33px;
+    height: 364px;
+    background: #ffffff;
+}
+.ClsImage.two{
+    left:530px;
+}
+section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+.tablink {
+    font-size: 16px;
+    font-weight: normal;
+    position: relative;
+    border: 2px solid rgba(150, 22, 22, 0);
+    margin-bottom: 16px;
+    width: 200px;
+    text-align: center;
+    float: left;
+    padding: 14px 8px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background:#acacac;
+  }
+
+.tablink:hover, .tablink.visited.active,.tablink.visited:hover{    
+    background:#3A5569;
+    color: #ffffff;
+}
+.tablink.visited{
+    background:none;
+    color: #ffffff;
+    background:#acacac;
+}
+.chk{
+    display: none;
+}
+.tablink.visited .chk{
+   background:url("../../images/common/chkMark.png") no-repeat;
+    position: absolute;
+    top: -11px;
+    right: -8px;
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+.tablink.visited {
+    /* cursor: not-allowed; */
+    /* pointer-events: none; */
+}
+  .tabcontent {
+    display: none;
+    padding:15px;
+  }
+  ul.bullet {
+    width: 87%;
+}
+ul.bullet li ul li:before{
+    top:8px;
+}

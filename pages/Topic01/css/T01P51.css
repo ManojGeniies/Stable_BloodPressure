@@ -1,0 +1,119 @@
+.mainContainer {
+    position: absolute;
+    width: 1000px;
+    height: 460px;
+    left: 40px;
+    top: 20px;
+    opacity: 1;
+}
+
+.clsCircle1 {
+    position: absolute;
+    -ms-transform: matrix(0, 0, 0, 0, 0, 0);
+    -wbkit-transform: matrix(0, 0, 0, 0, 0, 0);
+    transform: matrix(0, 0, 0, 0, 0, 0);
+}
+
+#idCircle100 {
+    left: 40px;
+    top: 90px;
+    width: 288px;
+    height: 288px;
+    background: url("../../../pages/images/Topic01/T01P46/01.png") no-repeat;
+    background-size: contain;
+}
+
+.clsPatch {
+    position: absolute;
+    width: 0px;
+    height: 236px;
+}
+
+#idPatch1 {
+    top: 132px;
+    left: 220px;
+    background-position: left;
+    height: 208px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: none;
+    color: #000000;
+    -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+}
+
+.clsText {
+    position: absolute;
+    font-size: 21px;
+    font-family: OpenSansRegular;
+    opacity: 0;
+}
+
+#idText1 {
+    top: 88px;
+    left: 133px;
+    width: 578px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.clsBold {
+    /* font-weight: bold; */
+    font-family: OpenSansSemiBold;
+    color: #B80F0A;
+}
+
+
+
+.clsNextText {
+    position: absolute;
+    font-size: 16px;
+    font-family: OpenSansRegular;
+    width: 375px;
+    top: 50px;
+    left: 100px;
+    display: none;
+}
+
+.boxInst {
+    position: absolute;
+    top: 480px;
+    left: 860px;
+    width: 175px;
+    height: 30px;
+    display: none;
+}
+
+.next_click {
+    position: absolute;
+    font-size: 14px;
+    color: #4D667B;
+    font-family: OpenSansRegular;
+    line-height: 14px;
+    width: 92%;
+    left: 0px;
+    text-align: center;
+}
+
+.instNextClick {
+    position: absolute;
+    top: -16px;
+    left: -15px;
+    background: url("../../../pages/images/common/instNext.png") no-repeat;
+    width: 194px;
+    height: 51px;
+}
+
+.assessmentImage {
+background: url("../../../pages/images/Topic01/T01P46/assessment.png") no-repeat;
+left: 380px;
+top: 24px;
+width: 39px;
+height: 47px;
+background-size: 39px 47px;
+position: absolute;
+opacity: 0;
+}

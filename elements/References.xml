@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+	<resourceTitle><![CDATA[References]]></resourceTitle>
+	<closeTitle><![CDATA[Close]]></closeTitle>
+	<Resources>
+		 <!-- Section 01 -->
+		 <!-- <Resource URL="" isSectionTitle="true" isPageID="false"><![CDATA[Getting Started]]></Resource> -->
+
+		<Resource isSectionTitle="false" isPageID="false" URL="pages/Topic01/pdf/Abnormal_Anion_Gap_Low_Ionized_Calcium_and_Elevated_Cardiac_Enzymes.pdf"><![CDATA[Abnormal Anion Gap, Low Ionized Calcium, and Elevated Cardiac Enzymes]]></Resource>
+
+		<Resource isSectionTitle="false" isPageID="false" URL="pages/Topic01/pdf/Blood_gas_interpretation_chart.pdf"><![CDATA[Blood gas interpretation chart]]></Resource>
+		<Resource isSectionTitle="false" isPageID="false" URL="pages/Topic01/pdf/Bloo_gas_interpretation_chart_(InternationalversionkPa).pdf"><![CDATA[Blood gas interpretation chart (International version kPa)]]></Resource>
+
+		<Resource isSectionTitle="false" isPageID="false" URL="pages/Topic01/pdf/Dopamine_administration_and_mixing.pdf"><![CDATA[Dopamine administration and mixing]]></Resource>
+
+		<Resource isSectionTitle="false" isPageID="false" 
+		URL="pages/Topic01/pdf/How_to_calculate_and_interpret_pulse_pressure.pdf"><![CDATA[How to calculate and interpret pulse pressure]]></Resource>	
+
+		<Resource isSectionTitle="false" isPageID="false" URL="pages/Topic01/pdf/Laboratory_evaluation_for_shock.pdf"><![CDATA[Laboratory evaluation for shock]]></Resource>	
+
+		<Resource isSectionTitle="false" isPageID="false" URL="pages/Topic01/pdf/Oscillometric_BP_measurement.pdf"><![CDATA[Oscillometric BP measurement]]></Resource>	
+
+<Resource isSectionTitle="false" isPageID="false" URL="pages/Topic01/pdf/Physical_exam_of_the_newborn.pdf"><![CDATA[Physical exam of the newborn]]></Resource>
+
+		<Resource isSectionTitle="false" isPageID="false" URL="pages/Topic01/pdf/Rules_for_dopamine_infusionc.pdf"><![CDATA[Rules for dopamine infusion]]></Resource>
+
+<Resource isSectionTitle="false" isPageID="false" 
+URL="pages/Topic01/pdf/Scalp_swellings_Caput_succedaneum_Cephalohematoma_Subgaleal_hemorrhage.pdf"><![CDATA[Scalp swellings: Caput succedaneum, Cephalohematoma, Subgaleal hemorrhage]]></Resource>
+				
+<Resource isSectionTitle="false" isPageID="false" 
+URL="pages/Topic01/pdf/What_packed_red_cell_blood_type_can_be_administered_during_an_emergency.pdf"><![CDATA[What packed red cell blood type can be administered during an emergency when there is not enough time to perform a type and cross-match?]]></Resource>		  
+
+	</Resources>
+</Root>
