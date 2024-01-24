@@ -13,7 +13,7 @@
     width: 355px;
     opacity: 0;
     top: 20px;
-    left:120px;
+    left: 120px;
 }
 
 #box2 {
@@ -50,10 +50,15 @@
 
 .icon-container {
     position: absolute;
-    width: 100%;
+    /*width: 100%;
     top: 190px;
     left: 0px;
-    height: 350px;
+    height: 350px;*/
+    width: 98%;
+    top: 215px;
+    left: 10px;
+    height: 315px;
+    border-radius: 25px;
     background: #ffffff;
 }
 
@@ -116,35 +121,35 @@
 #idText1 {
     top: 65PX;
     left: 0px;
-    width:100%;
+    width: 100%;
     height: 95px;
 }
 
 #idText2 {
     top: 65PX;
     left: 0px;
-    width:100%;
+    width: 100%;
     height: 95px;
 }
 
 #idText3 {
     top: 65PX;
     left: 0px;
-    width:100%;
+    width: 100%;
     height: 95px;
 }
 
 #idText4 {
     top: 65PX;
     left: 0px;
-    width:100%;
+    width: 100%;
     height: 95px;
 }
 
 #idText5 {
     top: 65PX;
     left: 0px;
-    width:100%;
+    width: 100%;
     height: 95px;
 }
 
@@ -156,13 +161,17 @@
 
 .banner-img {
     position: absolute;
-    top: 0px;
+    /*top: 0px;
     left: 0px;
-    width: 1085px;
+    width: 1085px;*/
     height: 190px;
+    top: 17px;
+    left: 5px;
+    width: 1075px;
     background: url('../../../pages/images/Topic01/T01P01/module_objective_banner.png') no-repeat;
     background-size: cover;
     background-color: #ffffff;
+    border-radius: 25px;
 }
 
 .headerTopRight {
