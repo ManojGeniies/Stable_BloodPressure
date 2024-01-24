@@ -1,11 +1,11 @@
 .yellowBorder:after {
     content: "";
     position: absolute;
-    width: 463px;
+    width: 545px;
     height: 55px;
-    border: 2px solid #B80F0A;
-    border-radius: 5px;
-    left: -86px;
+    border: 2px solid #F26C5B;
+    border-radius: 25px;
+    left: -185px;
     top: -5px;
 }
 
@@ -13,7 +13,7 @@
     position: absolute;
     width: 1000px;
     height: 460px;
-    left:51px;
+    left: 51px;
     top: 20px;
     opacity: 1;
 }
@@ -49,11 +49,11 @@
     border-radius: 10px;
     display: none;
     color: #000000;
-    -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    /* -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-    border-radius: 5px;
-    -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+     box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+     -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75); */
+    border-radius: 25px;
 }
 
 .clsText {
@@ -81,7 +81,7 @@
     background: url("../../../pages/images/Topic01/T01P00/Icon01.png");
     width: 35px;
     height: 34px;
-    left: 33px;
+    left: -40px;
     top: 55px;
     background-size: contain;
     display: none;
@@ -93,20 +93,21 @@
     font-family: OpenSansRegular;
     width: 385px;
     top: 50px;
-    left: 90px;
+    left: 8px;
     display: none;
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .custom-width {
-        width:450px !important;
-       
+        width: 450px !important;
+
     }
+
     .yellowBorder:after {
         content: "";
         position: absolute;
-        width:500px !important;
-     
+        width: 500px !important;
+
     }
 }
 
