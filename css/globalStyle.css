@@ -2405,8 +2405,8 @@ ul.transcript li {
     height: 87px;
 }
 .box-brd {
-    border: 2px solid #b71f25;
-    border-radius: 5px;
+    border: 1px solid #F6A87A;
+    border-radius: 25px;
     padding: 5px;
     height: 99px;
 }
