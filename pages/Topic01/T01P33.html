@@ -2649,6 +2649,16 @@
             left: 0px;
             top: 0px;
         }
+        .overallImgBorder {
+            z-index: 10;
+            border: 1px solid #3A5569;
+            width: 262px;
+            height: 421px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            border-radius: 25px 25px 25px 25px;
+        }
         
         .sectionTop {
             position: absolute;
@@ -2660,30 +2670,28 @@
         
         .sectionContent {
             position: absolute;
-            top: 10px;
-            height: 522px;
+            top: 55px;
+            height: 423px;
             width: 1073px;
-            left: 15px;
-            right: 15px;
+            left: 20px;
+            right: 15px 
         }
         .sectionLeft {
             height: 100%;
-            width: 264px;
+            width: 265px;
             background: #E0F6FB;
-            box-shadow: 0 1px 9px -4px rgba(0, 0, 0, 0.75);
+            /* box-shadow: 0 1px 9px -4px rgba(0, 0, 0, 0.75);
             -webkit-box-shadow: 0 1px 9px -4px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: 0 1px 9px -4px rgba(0, 0, 0, 0.75);
-            border-radius: 7px 0 0 7px;
-            -webkit-radius: 7px 0 0 7px;
-            -moz-radius: 7px 0 0 7px;
+            -moz-box-shadow: 0 1px 9px -4px rgba(0, 0, 0, 0.75); */
+            border-radius: 27px 25px 25px 25px;
         }
         
         .sectionRight {
             width: 790px;
-    height: 507px;
-    top: 0px;
-    position: absolute;
-    left: 264px;
+            height: 507px;
+            top: 0px;
+            position: absolute;
+            left: 264px;
         }
         
         .rightTop {
@@ -2772,13 +2780,13 @@
         
         .sectionContentArea {
             background: #fff;
-    height: 523px;
-    border-top-right-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    -webkit-bottom-top-right-radius: 5px;
-    -moz-border-bottom-right-radius: 5px;
+            height: 420px;
+            width: 760px;
+            border-radius: 25px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            position: absolute;
+            left: 15px;
         }
         
         .topImgCnt {
@@ -2788,21 +2796,24 @@
         #topImgCnt1 {
             background: url(pages/images/Topic01/T01P24/01.png) no-repeat;
             background-size: cover;
-            height: 256px;
-            width: 100%
+            height: 224px;
+            width: 265.5px;
+            border-radius: 25px 30px 25px 25px;
+
         }
         
         .small_expand,
         .open_map {
             background: url('pages/images/common/small_expand.png') no-repeat !important;
             width: 28px;
+            z-index: 100;
             height: 28px !important;
             position: absolute !important;
             bottom: 24px;
             right: 10px;
             display: none;
-            left: inherit !important;
-            top: inherit !important;
+            /* left: 228px;
+            top: 185px; */
             float: inherit !important;
             text-decoration: none !important;
             border-radius: inherit !important;
@@ -2847,7 +2858,8 @@
         
         .leftBottom {
             position: relative;
-            height: 249px;
+            height: 210px;
+            top: 10px;
         }
         
         .leftBottom h3 {
@@ -2927,7 +2939,7 @@
             font-size: 16px;
         }
         .topHeading {
-            width: 100%;
+            width: 70%;
             float: left;
             font-weight: bold;
         }
@@ -3102,8 +3114,8 @@
         
         .bottomTxt {
             position: absolute;
-            bottom: 0px;
-            right: 20px;
+            bottom: 20px;
+            right: 30px;
         }
         ul.non-bullet, ol.number{
             padding-left: 0px;
@@ -3828,12 +3840,12 @@
     }
     .slider-wrapper {
     background: #f2f1f1;
-    border-top-right-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-top-right-radius: 5px;
-    width: 755px;
+    border-top-right-radius: 25px 25px 0px 0px;
+    -webkit-border-radius: 25px 25px 0px 0px;
+    -moz-border-radius: 25px 25px 0px 0px;
+    width: 742px;
     height: 55px;
-    padding: 10px 10px 5px 25px;
+    padding: 10px 10px 5px 9px;
 }
 .slider{
     background: url('pages/images/Topic01/T01P30/02.png') !important;
@@ -4149,11 +4161,12 @@
         <div id="TabPopup5" class="clsTabPopup">
             <div class="sectionContent">
                 <div class="sectionLeft">
+                    <div class="overallImgBorder" unselectable="on"></div>
                     <div class="topImgCnt" id="topImgCnt1">
-                        <div class="popover left-arrow clickToEnlarge">
+                        <!-- <div class="popover left-arrow clickToEnlarge">
                             <div class="arrow" style="top: 50%;"></div>
                             <div class="popover-content">Click to enlarge image.</div>
-                        </div>
+                        </div> -->
                         <a href="javascript:void(0);" title="Click to enlarge image" class="small_expand zoom_btn" click_id="1">&nbsp;</a>
                     </div>
                     <div class="leftBottom">
@@ -4220,10 +4233,10 @@
                     <div class="modalTextBottom" unselectable="on">Baby Mateo</div>
                     <a class="closepopup zoom_close_btn" href="javascript:void(0)" title="Click to Close"></a>
                     <!-- <div class="clickToContinue expandImgTxtRight clickToClose">Click to Close</div> -->
-                    <div class="popover left-arrow">
+                    <!-- <div class="popover left-arrow">
                         <div class="arrow" style="top: 50%;"></div>
                         <div class="popover-content">Click to close image.</div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
