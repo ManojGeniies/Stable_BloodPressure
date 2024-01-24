@@ -28,7 +28,7 @@ var updateContentArray = [
     event: "",
     show: "",
     hide: "",
-    transcript: "Ten minutes later, the paramedics arrive with a premature female infant. The infant is being given bag and mask positive pressure ventilation (PPV) with 100% oxygen. She appears limp and cyanotic. The infant is weighed and then transferred to the radiant warmer.<br>Click Next to continue."
+    transcript: "Ten minutes later, the paramedics arrive with a premature female infant. The infant is being given bag and mask positive pressure ventilation (PPV) with 100% oxygen. She appears limp and cyanotic. The infant is weighed and then transferred to the radiant warmer."
 },
 {
     time: "0",

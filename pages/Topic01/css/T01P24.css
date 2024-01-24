@@ -2917,12 +2917,13 @@ return_case_button_vital:hover {
     height: 100%;
     width: 264px;
     background: #E0F6FB;
-    box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0);
     border-bottom-left-radius: 7px;
     -webkit-border-bottom-left-radius: 7px;
     -moz-border-bottom-left-radius: 7px;
+    border-radius: 25px;
 }
 
 .sectionRight {
@@ -3027,6 +3028,7 @@ return_case_button_vital:hover {
     border-bottom-right-radius: 5px;
     -webkit-bottom-top-right-radius: 5px;
     -moz-border-bottom-right-radius: 5px;
+    border-radius: 25px;
 }
 
 .topImgCnt {
@@ -3312,7 +3314,7 @@ return_case_button_vital:hover {
     color: #ffffff;
     border-radius: 5px;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
+    -webkit-border-radius: 25px;
     -moz-border-radius: 5px;
     text-transform: capitalize;
     line-height: 21px;

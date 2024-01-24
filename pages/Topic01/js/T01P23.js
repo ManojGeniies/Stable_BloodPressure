@@ -45,7 +45,7 @@ var updateContentArray = [
         event: "",
         show: "",
         hide: "",
-        transcript: "Now review Anya’s labor and delivery history, then click Next to continue."
+        transcript: "Now review Anya’s labor and delivery history."
     },
 
 

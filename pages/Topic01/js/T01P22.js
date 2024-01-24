@@ -46,7 +46,7 @@ var updateContentArray = [
         event: "",
         show: "",
         hide: "",
-        transcript: "The following is learned about Anya Collins, the baby’s mother. Please review her maternal history, then click Next to continue."
+        transcript: "The following is learned about Anya Collins, the baby’s mother. Please review her maternal history."
     },
 
 // 
