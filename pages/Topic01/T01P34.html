@@ -2660,31 +2660,38 @@
         
         .sectionContent {
             position: absolute;
-            top: 10px;
-            height: 522px;
-            width: 1073px;
+            top: 49px;
+            height: 460px;
+            width: 1055px;
             left: 15px;
             right: 15px;
         }
         
         .sectionLeft {
-            height: 100%;
-            width: 264px;
+            height: 92%;
+            width: 265px;
             background: #E0F6FB;
-            box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
-            -webkit-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
-            border-radius:7px 0 0 7px;
-            -webkit-radius:7px 0 0 7px;
-            -moz-radius:7px 0 0 7px;
+            /* box-shadow: 0 1px 9px -4px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: 0 1px 9px -4px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0 1px 9px -4px rgba(0, 0, 0, 0.75); */
+            border-radius: 27px 25px 25px 25px;
         }
-        
+        .overallImgBorder {
+            z-index: 10;
+            border: 1px solid #3A5569;
+            width: 262px;
+            height: 421px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            border-radius: 25px 25px 25px 25px;
+        }
         .sectionRight {
             width: 698px;
-    height: 507px;
-    top: 0;
-    position: absolute;
-    left: 352px;
+            height: 507px;
+            top: 0;
+            position: absolute;
+            left: 352px;
         }
         
         .rightTop {
@@ -2773,18 +2780,17 @@
         
         .sectionContentArea {
             background: #fff;
-            height: 473px;
-            border-top-right-radius: 5px;
-            -webkit-border-top-right-radius: 5px;
-            -moz-border-top-right-radius: 5px;
-            border-bottom-right-radius: 5px;
-            -webkit-bottom-top-right-radius: 5px;
-            -moz-border-bottom-right-radius: 5px;
+            height: 436px;
+            border-radius: 25px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+           
         }
         
         .topImgCnt {
-            width: 264px;
-            height: 256px;
+            height: 224px;
+            width: 265.5px;
+            border-radius: 25px 30px 25px 25px;
             position: relative;
         }
         
@@ -2797,13 +2803,14 @@
         .open_map {
             background: url('pages/images/common/small_expand.png') no-repeat !important;
             width: 28px;
+            z-index: 100;
             height: 28px !important;
             position: absolute !important;
             bottom: 24px;
             right: 10px;
             display: none;
-            left: inherit !important;
-            top: inherit !important;
+            /* left: 228px;
+            top: 185px; */
             float: inherit !important;
             text-decoration: none !important;
             border-radius: inherit !important;
@@ -2849,6 +2856,7 @@
         .leftBottom {
             position: relative;
             height: 249px;
+            top: 10px;
         }
         
         .leftBottom h3 {
@@ -2913,7 +2921,7 @@
         .leftCnt {
             width: 70px;
             height: 425px;
-            top: 27px;
+            top: 7px;
             position: absolute;
             left: 283px;
         }
@@ -2968,12 +2976,13 @@
             position: absolute;
             right: 116px;
             padding-left: 0px;
-            top: 61px;
+            top: 28px;
             height: 415px;
         }
         .indicateStyle{
             position: relative;
             left: 26px;
+            top: -10px;
         }
         .topHeading{
             width: 100%;
@@ -3965,11 +3974,12 @@ sub{
         <div id="TabPopup5" class="clsTabPopup">
             <div class="sectionContent">
                 <div class="sectionLeft">
+                    <div class="overallImgBorder" unselectable="on"></div>
                     <div class="topImgCnt" id="topImgCnt1">
-                        <div class="popover left-arrow clickToEnlarge">
+                        <!-- <div class="popover left-arrow clickToEnlarge">
                             <div class="arrow" style="top: 50%;"></div>
                             <div class="popover-content">Click to enlarge image.</div>
-                        </div>
+                        </div> -->
                         <a href="javascript:void(0);" title="Click to enlarge image" class="small_expand zoom_btn" click_id="1">&nbsp;</a>
                     </div>
                     <div class="leftBottom">
@@ -4037,10 +4047,10 @@ sub{
                     <div class="modalTextBottom" unselectable="on">Baby Mateo</div>
                     <a class="closepopup zoom_close_btn" href="javascript:void(0)" title="Click to Close"></a>
                     <!-- <div class="clickToContinue expandImgTxtRight clickToClose">Click to Close</div> -->
-                    <div class="popover left-arrow">
+                    <!-- <div class="popover left-arrow">
                         <div class="arrow" style="top: 50%;"></div>
                         <div class="popover-content">Click to close image.</div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
