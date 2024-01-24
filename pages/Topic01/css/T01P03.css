@@ -104,7 +104,7 @@
     top: 65px;
     height: 423px;
     width: 1073px;
-    left: 25px;
+    left: 35px;
     right: 15px
 }
 
@@ -133,15 +133,11 @@
 }
 
 .sectionRight {
-    /*width: 790px;
-        height: 465px;
-        top: 0px;
-        left: 264px;*/
     position: absolute;
     width: 710px;
     height: 465px;
     top: 5px;
-    left: 325px;
+    left: 300px;
 }
 
 .sectionContentArea {
@@ -265,7 +261,7 @@
     line-height: 25px;
     color: #5B5B5B;
     top: 20px;
-    left: 7px;
+    left: 40px;
     width: 100%;
     opacity: 1;
     text-align: center;
