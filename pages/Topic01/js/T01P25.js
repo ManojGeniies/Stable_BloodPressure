@@ -53,7 +53,7 @@ var clickTabCount1 = 0;
 
 var updateContentArray = [
 
-    { time: "0", carry: "", event: "", show: "", hide: "", transcript: "Next, review the stabilization care that was provided shortly after admission, then click Next to continue." },
+    { time: "0", carry: "", event: "", show: "", hide: "", transcript: "Next, review the stabilization care that was provided shortly after admission." },
 
     {
         time: "0",
