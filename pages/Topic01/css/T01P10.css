@@ -201,12 +201,12 @@ display :none;
 
 .imgSubCnt_02 {
     position: absolute;
-    width: 208px;
+    width: 204px;
     left: 25px;
     top: 20px;
     background: #FFFFFF;
     border: 10px solid #FFFFFF;
-    height: 314px;
+    height: 310px;
     border-radius: 25px;
 }
 
