@@ -717,7 +717,7 @@ width: 195px;
     padding: 23px 35px;
 }
 
-.clsActive.viewed {
+/* .clsActive.viewed {
     background: #3A5569;
     color: #FFFFFF;
     pointer-events: none;
@@ -737,7 +737,7 @@ width: 195px;
     position: absolute;
     border-top-color: #3A5569;
     border-width: 15px;
-}
+} */
 .CaseStudy {
     position: absolute;
     left: 0px;

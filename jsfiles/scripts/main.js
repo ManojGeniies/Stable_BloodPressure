@@ -808,7 +808,7 @@ function fnAddPlayerEvents() {
     });
 
     $("#clsExitBtn").hover(function() {
-        $("#clsExitBtn").css({ "background": "url('media/images/new/exit.png') no-repeat", "background-position": "-32px 0", "background-size": "cover" })
+        $("#clsExitBtn").css({ "background": "url('media/images/new/Exithover.png') no-repeat", "background-position": "0px 0", "background-size": "cover" })
             //$("#clsBGText").css("display","block")
             //$("#clsBG").css("background","url('media/images/player/common/close_hover.png')")
     }, function() {
@@ -5064,19 +5064,19 @@ function fnTools() {
         /* $(".ClsToolPop").css({"transform":"translateY(0%)"});
         $(".ClsToolbtn ").addClass("ClsToolbtnSelected"); */
 
-        $(".ClsToolPop").css("top", "515px").css({ "transform": "translateY(0%)" });
-        $(".ClsToolbtn ").addClass("ClsToolbtnSelected");
+        $(".ClsToolPop").css("top", "62px").css("left", "747px").css({ "transform": "translateY(0%)" });
+        // $(".ClsToolbtn ").addClass("ClsToolbtnSelected");
         //$(".ClsToolPop,.ClsToolSubPop").css("display","none");
         isToolEnable = false;
     } else {
-        $(".ClsToolPop").css("top", "530px").css({ "transform": "translateY(100%)" });
+        $(".ClsToolPop").css("top", "-63px").css("left", "1100px").css({ "transform": "translateY(100%)" });
         $(".ClsToolbtn ").removeClass("ClsToolbtnSelected");
         //$(".ClsToolPop,.ClsToolSubPop").css("display","block");
         isToolEnable = true;
     }
     $("#TooclsBtn").off("click")
     $("#TooclsBtn").on('click', function() {
-        $(".ClsToolPop").css("top", "515px").css({ "transform": "translateY(0%)" });
+        $(".ClsToolPop").css("top", "-70px").css({ "transform": "translateY(0%)" });
         $(".ClsToolbtn ").addClass("ClsToolbtnSelected");
         //$(".ClsToolPop,.ClsToolSubPop").css("display","none")
         isToolEnable = false;

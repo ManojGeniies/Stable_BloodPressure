@@ -16,8 +16,8 @@
     position: absolute;
     background-color: #ffffff!important;
     border-radius: 0!important;
-    border-top-left-radius: 3px!important;
-    border-top-right-radius: 3px!important;
+    border-top-left-radius: 25px!important;
+    border-top-right-radius: 25px!important;
     font-family: OpenSansRegular;
     font-size: 36px;
     left: 0!important;
@@ -34,7 +34,7 @@
 }
 
 .modalContent {
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.34) !important;
+    /* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.34) !important; */
 }
 
 #id_glosCloseBtn, #id_glosCloseBtnGlsr {
@@ -242,11 +242,12 @@
 
 .popupglossasryCnt {
     width: 511px !important;
+    width: 511px !important;
     overflow: inherit;
     height: auto;
-    min-height: 215px;  
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.34);
-    border-radius: 5px;
+    min-height: 215px;
+    /* / box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.34); / */
+    border-radius: 25px;
     background-color: #fff;
 }
 
