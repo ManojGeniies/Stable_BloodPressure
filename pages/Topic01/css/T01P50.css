@@ -1020,14 +1020,15 @@ sub {
 }
 ul.bullet {
     line-height: 25px;
-    width: 65%;
-    margin-top: 77px;
+    width: 67%;
+    /* margin-top: 77px; */
     background-color: white;
     margin-left: 5px;
     border-radius: 25px;
     margin-left: 5px;
     position: absolute;
     left: 282px;
+    top:-15px;
 }
 
 ul.bullet li {
