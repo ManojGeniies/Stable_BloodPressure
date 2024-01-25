@@ -2516,31 +2516,31 @@
         
         .sectionContent {
             position: absolute;
-            top: 10px;
-            height: 522px;
+            top: 55px;
+            height: 423px;
             width: 1073px;
-            left: 15px;
-            right: 15px;
+            left: 20px;
+            right: 15px 
         }
         
         .sectionLeft {
             height: 100%;
-            width: 264px;
+            width: 265px;
             background: #E0F6FB;
-            box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
-            -webkit-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
-            border-bottom-left-radius: 7px;
-            -webkit-border-bottom-left-radius: 7px;
-            -moz-border-bottom-left-radius: 7px;
+            /* box-shadow: 0 1px 9px -4px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: 0 1px 9px -4px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0 1px 9px -4px rgba(0, 0, 0, 0.75); */
+            border-radius: 25px 25px 25px 25px;
+            /* border: 10px solid white; */
         }
         
         .sectionRight {
-            width: 790px;
-    height: 507px;
+            width: 750px;
+    height: 495px;
     top: 0px;
     position: absolute;
-    left: 264px;
+    left: 295px;
+    
         }
         
         .rightTop {
@@ -2629,13 +2629,14 @@
         
         .sectionContentArea {
             background: #fff;
-    height: 523px;
-    border-top-right-radius: 5px;
+    height: 290px;
+    border-radius: 25px;
+    /*border-top-right-radius: 5px;
     -webkit-border-top-right-radius: 5px;
     -moz-border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     -webkit-bottom-top-right-radius: 5px;
-    -moz-border-bottom-right-radius: 5px;
+    -moz-border-bottom-right-radius: 5px;*/
         }
         
         .topImgCnt {
@@ -2646,6 +2647,10 @@
         
         #topImgCnt1 {
             background: url('pages/images/Topic01/T01P04/01.png') no-repeat;
+            background-size: cover;
+            height: 224px;
+            width: 265.5px;
+            border-radius: 25px 25px 25px 25px;
         }
         
         .small_expand,
@@ -2661,7 +2666,7 @@
             top: inherit !important;
             float: inherit !important;
             text-decoration: none !important;
-            border-radius: inherit !important;
+            /* border-radius: inherit !important; */
             margin-left: 0px !important;
             background-color: inherit !important;
             padding: 0px !important;
@@ -2769,7 +2774,7 @@
             width: 750px;
             position: absolute;
             left: 20px;
-            top: 5px;
+            top: 17px;
             height:510px;
         }
         
@@ -2835,6 +2840,7 @@
         #imgPopup1 {
             background: url('pages/images/Topic01/T01P04/01_lg.png') no-repeat;
             background-size: contain;
+            border-radius: 25px;
         }
         
         #imgPopup2 {
@@ -2935,7 +2941,7 @@
         
         .bottomTxt {
             position: absolute;
-            bottom: 0px;
+            bottom: 20px;
             right: 20px;
         }
         ul.non-bullet, ol.number{
@@ -3667,6 +3673,16 @@
         bottom: 48px;
         right:59px;
     }
+    .overallImgBorder {
+        z-index: 10;
+    border: 1px solid #3A5569;
+    width: 263px;
+    height: 424px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 25px 25px 25px 25px;
+    }
     </style>
     <script>
         //clickViewMoreInfo();
@@ -3894,11 +3910,12 @@
         <div id="TabPopup5" class="clsTabPopup">
             <div class="sectionContent">
                 <div class="sectionLeft">
+                    <div class="overallImgBorder" unselectable="on"></div>
                     <div class="topImgCnt" id="topImgCnt1">
-                        <div class="popover left-arrow clickToEnlarge">
+                        <!--<div class="popover left-arrow clickToEnlarge">
                             <div class="arrow" style="top: 50%;"></div>
                             <div class="popover-content">Click to enlarge image.</div>
-                        </div>
+                        </div>-->
                         <a href="javascript:void(0);" title="Click to enlarge image" class="small_expand zoom_btn" click_id="1">&nbsp;</a>
                     </div>
                     <div class="leftBottom">
@@ -3955,10 +3972,10 @@
                     <div class="modalTextBottom" unselectable="on">Baby Conrad</div>
                     <a class="closepopup zoom_close_btn" href="javascript:void(0)" title="Click to Close"></a>
                     <!-- <div class="clickToContinue expandImgTxtRight clickToClose">Click to Close</div> -->
-                    <div class="popover left-arrow">
+                    <!--<div class="popover left-arrow">
                         <div class="arrow" style="top: 50%;"></div>
                         <div class="popover-content">Click to close image.</div>
-                    </div>
+                    </div>-->
                 </div>
 
             </div>

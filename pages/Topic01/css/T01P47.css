@@ -14,18 +14,21 @@
     top: 7px;
     height: x;
     background: #ffffff;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
     /* padding: 0px 17px; */
     line-height: 40px;
     text-align: center;
     font-size: 16px;
 }
+.clsPatch1{
+width: 100%;
+}
 #contentDesc{
     height: 85px;
     position: relative;
-    top: 430px;
+    top: 433px;
     display: none;
 }
 #contentDesc .contentTxt{
@@ -534,21 +537,23 @@ span {
     top: 60px;
 }
 .leftCnt{
-    background:#acacac;
-    width:220px;
+    background: #acacac;
+    width: 200px;
     position: absolute;
-    top:0px;
-    height: 360px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+    top: -5px;
+    height: 350px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border: 10px solid white;
 }
 .rightCnt{
     width: 760px;
     position: absolute;
     left: 235px;
-    top: 0px;
+    top: -5px;
     height: 360px;
+   
 }
 .leftCnt ul{
     margin: 0px;
@@ -595,22 +600,35 @@ span {
     display: block;
 }
 #sectionRow0 .sectionImg{
-    background: url('../../../pages/images/Topic01/T01P47/01.png') no-repeat;
-    width:747px;
-    height: 360px;
+    background: url(../../../pages/images/Topic01/T01P47/01.png) no-repeat;
+    width: 694px;
+    height: 350px;
     background-size: contain;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border: 10px solid white;
 }
 #sectionRow1 .sectionImg{
-    background: url('../../../pages/images/Topic01/T01P47/02.png') no-repeat;
-    width:747px;
-    height: 360px;
+    background: url(../../../pages/images/Topic01/T01P47/01.png) no-repeat;
+    width: 694px;
+    height: 350px;
     background-size: contain;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border: 10px solid white;
+    
 }
 #sectionRow2 .sectionImg{
-    background: url('../../../pages/images/Topic01/T01P47/03.png') no-repeat;
-    width:747px;
-    height: 360px;
+    background: url(../../../pages/images/Topic01/T01P47/01.png) no-repeat;
+    width: 694px;
+    height: 350px;
     background-size: contain;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border: 10px solid white;
 }
 
 .hammer_img{

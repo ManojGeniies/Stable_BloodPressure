@@ -982,7 +982,7 @@
     width: 225px;
     float: left;
     margin-bottom: 9px;
-    border-radius: 5px;
+    border-radius: 25px;
     background: #cecece;
     display: inline-block;
     margin-right: 16px;
@@ -990,7 +990,7 @@
 }
 
 .drag {
-    border-radius: 5px;
+    border-radius: 25px;
     color: #ffffff;
     background: #b80f0a;
     text-align: center;
@@ -1065,7 +1065,7 @@
         .correctAnswer {
             height: 62px;
             width: 248px;
-            border-radius: 5px;
+            border-radius: 25px;
             background: #f2f2f2;
     text-align: center;
     border: 1px dashed #b1adad;
@@ -1131,7 +1131,7 @@
         .bottomTxt {
             position: absolute;
             top: 469px;
-            right: -31px;
+            right: -22px;
         }
 
         .cSubmitBtn,
@@ -1232,7 +1232,7 @@
             top: 20px;
             height: 507px;
             width: 1055px;
-            left: 15px;
+            left: 11px;
             right: 15px;
             color: #000
         }
@@ -1277,7 +1277,7 @@
             top: inherit !important;
             float: inherit !important;
             text-decoration: none !important;
-            border-radius: inherit !important;
+            /* border-radius: inherit !important; */
             margin-left: 0 !important;
             background-color: inherit !important;
             padding: 0 !important
@@ -1293,15 +1293,16 @@
         }
 
         .sectionLeft {
-            height: 100%;
+            height: 84%;
             width: 264px;
             background: #E0F6FB;
-            box-shadow: 0 1px 9px -4px rgba(0, 0, 0, 0.75);
+            border-radius: 25px;
+           /* box-shadow: 0 1px 9px -4px rgba(0, 0, 0, 0.75);
             -webkit-box-shadow: 0 1px 9px -4px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: 0 1px 9px -4px rgba(0, 0, 0, 0.75);
-            border-bottom-left-radius: 7px;
-            -webkit-border-bottom-left-radius: 7px;
-            -moz-border-bottom-left-radius: 7px
+            -moz-box-shadow: 0 1px 9px -4px rgba(0, 0, 0, 0.75);*/
+            /* border-bottom-left-radius: 25px;
+            -webkit-border-bottom-left-radius: 25px;
+            -moz-border-bottom-left-radius: 25px */
         }
 
         .sectionRight {
@@ -1309,14 +1310,16 @@
             height: 507px;
             top: 0;
             position: absolute;
-            left: 264px;
+            left: 273px;
             background: white;
-            border-top-right-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    -webkit-bottom-top-right-radius: 5px;
-    -moz-border-bottom-right-radius: 5px;
+            border-radius: 25px;
+            /* border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px; */
+    /*-webkit-border-top-right-radius: 25px;
+    -moz-border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    -webkit-bottom-top-right-radius: 25px;
+    -moz-border-bottom-right-radius: 25px;*/
         }
 
         .rightTop {
@@ -1417,13 +1420,16 @@
         #topImgCnt1 {
             background: url(pages/images/Topic01/T01P04/01.png) no-repeat;
             background-size: cover;
-            height: 252px;
-            width: 100%
+            height: 240px;
+            width: 100%;
+            border-radius: 25px;
+          
         }
 
         #imgPopup1 {
             background: url('pages/images/Topic01/T01P04/01_lg.png') no-repeat;
             background-size: contain;
+            border-radius: 25px;
 
         }
         .popover.left-arrow{
@@ -1446,9 +1452,9 @@
     top:0;
     background: #ffffff;
     border: 1px solid #9F9F9F;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
     height:453px;
         }
 
@@ -1533,6 +1539,16 @@
         #id_glosTitleText {
             width: 96%;
         }
+        .overallImgBorder {
+                z-index: 10;
+                border: 1px solid #3A5569;
+                width: 263px;
+                height: 423px;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                border-radius: 25px 25px 25px 25px;
+    }
     </style>
     <script>
         glossaryFuncPageLevel();
@@ -1548,7 +1564,7 @@
             event: "",
             show: "",
             hide: "",
-            transcript: "Based on your assessment, which actions should be taken? <br/> Drag and the correct stabilization activities to the column on the right, then click Submit."
+            transcript: "Based on your assessment, which actions should be taken? <br/> Drag and the correct stabilization activities to the column on the right"
         }
         ];
         var updateContentArray0 = [{
@@ -1987,12 +2003,13 @@
         <div id="TabPopup5" class="clsTabPopup">
             <div class="sectionContent">
                 <div class="sectionLeft">
+                    <div class="overallImgBorder" unselectable="on"></div>
                     <div class="topImgCnt" id="topImgCnt1">
-                        <!-- <div class="clickToContinue expandImgTxtRight clickToEnlarge">Click to enlarge image.</div> -->
+                        <!-- <div class="clickToContinue expandImgTxtRight clickToEnlarge">Click to enlarge image.</div> 
                         <div class="popover left-arrow clickToEnlarge">
                             <div class="arrow" style="top: 50%;"></div>
                             <div class="popover-content">Click to enlarge image.</div>
-                        </div>
+                        </div>-->
                         <a href="javascript:void(0);" title="Click to enlarge image" class="small_expand zoom_btn"
                             click_id="1">&nbsp;</a>
                     </div>
@@ -2111,11 +2128,11 @@
                     <div class="modalTxtImg" unselectable="on" id="imgPopup0"></div>
                     <div class="modalTextBottom" unselectable="on">Baby Conrad</div>
                     <a class="closepopup zoom_close_btn" href="javascript:void(0)" title="Click to Close"></a>
-                    <!-- <div class="clickToContinue expandImgTxtRight clickToClose">Click to Close</div> -->
+                    <!-- <div class="clickToContinue expandImgTxtRight clickToClose">Click to Close</div> 
                     <div class="popover left-arrow">
                         <div class="arrow" style="top: 50%;"></div>
                         <div class="popover-content">Click to close image.</div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>

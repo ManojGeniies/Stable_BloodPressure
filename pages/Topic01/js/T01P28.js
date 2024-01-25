@@ -36,7 +36,7 @@ var clickTabCount1 = 0;
 
 var updateContentArray = [
 
-    { time: "0", carry: "", event: "", show: "", hide: "", transcript: "Baby Girl Collins was successfully intubated on the first attempt. Review her post-intubation chest x-ray and her vital signs, then click Next to continue." },
+    { time: "0", carry: "", event: "", show: "", hide: "", transcript: "Baby Girl Collins was successfully intubated on the first attempt. Review her post-intubation chest x-ray and her vital signs." },
 
     {
         time: "0",

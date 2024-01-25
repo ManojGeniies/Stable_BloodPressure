@@ -101,12 +101,16 @@
         height: 100%;
         width: 264px;
         background: #E0F6FB;
-        box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
+        border-radius: 25px;
+        /* border:10px solid white ; */
+        /* border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px; */
+        margin-left: 40px;
+        /*box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
         -webkit-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
-        border-bottom-left-radius: 7px;
-        -webkit-border-bottom-left-radius: 7px;
-        -moz-border-bottom-left-radius: 7px;
+        -moz-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);*/
+         /*-webkit-border-bottom-left-radius: 7px;
+        -moz-border-bottom-left-radius: 7px;*/
     }
     
     .sectionRight {
@@ -119,24 +123,33 @@
     
     .sectionContentArea {
         background: #fff;
-        height:503px;
-        border-top-right-radius: 5px;
+        width: 65%;
+        height: 240px;
+        margin-left: 100px;
+        border-radius: 25px;
+        /* right: 10px; */
+       /* border-top-right-radius: 5px;
         -webkit-border-top-right-radius: 5px;
         -moz-border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
+        border-bottom-right-radius: 25px;
         -webkit-bottom-top-right-radius: 5px;
-        -moz-border-bottom-right-radius: 5px;
+        -moz-border-bottom-right-radius: 5px;*/
     }
     
     .topImgCnt {
         width: 264px;
-        height: 255px;
+        height: 241px;
         position: relative;
+        
+        
     }
     
     #topImgCnt1 {
         background: url(../../../pages/images/Topic01/T01P46/01.png) no-repeat;
         /* background-size: cover; */
+        /* border-top-left-radius:25px ;
+        border-top-right-radius:25px ; */
+        border-radius: 25px;
     }
     
     .popover.clickToEnlarge{
@@ -155,7 +168,7 @@
         top: inherit !important;
         float: inherit !important;
         text-decoration: none !important;
-        border-radius: inherit !important;
+        /* border-radius: inherit !important; */
         margin-left: 0px !important;
         background-color: inherit !important;
         padding: 0px !important;
@@ -222,9 +235,9 @@
     }
     
     .leftCnt {
-        width:95%;
+        width:97%;
         position: absolute;
-        left: 0px;
+        left: 98px;
         line-height: 25px;
     }
     
@@ -446,4 +459,15 @@
         top: -17px;
         width: 100%;
         height: 50px;
+    }
+
+    .overallImgBorder {
+        z-index: 10;
+        border: 1px solid #3A5569;
+        width: 262px;
+        height: 499px;
+        position: absolute;
+        top: 0px;
+        left: 40px;
+        border-radius: 25px 25px 25px 25px;
     }

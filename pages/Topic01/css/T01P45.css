@@ -1841,10 +1841,10 @@ return_case_button_vital:hover {
     top: 160px;
     left: 229px;
     background: #ffffff;
-    border-radius: 5px;
-    -webkit-box-shadow: 2px 2px 12px -1px rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
+    /*-webkit-box-shadow: 2px 2px 12px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 2px 2px 12px -1px rgba(0, 0, 0, 0.75);
-    box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.75);*/
 }
 
 .ModalTextHeader2 {
@@ -1921,16 +1921,16 @@ return_case_button_vital:hover {
     height: 40px;
     background: #5B5B5B;
     border-radius: 5px;
-    border-radius: 5px;
+   /* border-radius: 5px;
     -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+    -moz-border-radius: 5px;*/
     color: #ffffff;
     text-align: center;
     line-height: 37px;
     top: 100px;
     left: 0px;
     font-family: OpenSansRegular;
-    font-size: 17px;
+    font-size: 14px;
     border: 2px solid transparent;
     margin: 0px auto;
 }
