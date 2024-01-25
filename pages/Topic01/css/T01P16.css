@@ -69,19 +69,18 @@
         
         .clsPatch {
             position: absolute;
-            width: 96%;
+            width: 850px;
             height: 175px;
             background: #ffffff;
-            border-radius: 5px;
-            -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-            box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-            border-radius: 5px;
-            -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+            border-radius: 25px;          
             padding: 6px 0px;
-            left: 20px;
+            left: 60px;
             opacity: 0;
             display: none;
+            /* -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);            
+            -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75); */
         }
         
         .clsText {
@@ -212,23 +211,23 @@
         }
         
         .ClsImage1 {
+            border-radius: 25px;
             position: absolute;
-            background: #fff;
-            -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: 2px 2px 2px -2px rgba(0, 0, 0, 0.75);
-            box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-            border-radius: 5px;
-            -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+            background: #fff;            
             display: none;
-            left:20px;
-            width:96%;
+            left:80px;
+            width:811px;
             top: 206px;
             height: 245px;
+            /* -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 2px 2px 2px -2px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);            
+            -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
             -webkit-transition: all 0.3s ease-in-out;
             -moz-transition: all 0.3s ease-in-out;
             -ms-transition: all 0.3s ease-in-out;
             -o-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out; */
         }
 
         .subFirstImage {
@@ -236,37 +235,40 @@
             width: 230px;
             height: 145px;
             top: 15px;
-            left: 20px;
+            left: 30px;
         }
 
         #clsSub0 {
             background: url('../../../pages/images/Topic01/T01P16/03.png') no-repeat;
             background-size: contain;
-            border-radius: 5px;
+            border-radius: 25px;
 
         }
         #clsSub1 {
             background: url('../../../pages/images/Topic01/T01P16/04.png') no-repeat;
             background-size: contain;
-            border-radius: 5px;
+            border-radius: 25px;
 
         }
         #clsSub2 {
             background: url('../../../pages/images/Topic01/T01P16/05.png') no-repeat;
             background-size: contain;
-            border-radius: 5px;
+            border-radius: 25px;
 
         }
         #imgPopup0 {
+            border-radius: 25px;
             background: url('../../../pages/images/Topic01/T01P16/03_lg.png') no-repeat;
             background-size:contain;
         }
         #imgPopup1 {
+            border-radius: 25px;
             background: url('../../../pages/images/Topic01/T01P16/04_lg.png') no-repeat;
             background-size:contain;
             background-position:center center;
         }
         #imgPopup2 {
+            border-radius: 25px;
             background: url('../../../pages/images/Topic01/T01P16/05_lg.png') no-repeat;
             background-size:contain;
         }
@@ -922,15 +924,18 @@
     width: 4%;
 }
 .modalContent {
+    border-radius: 25px;
     width: 345px;
     height: 308px;
     top: 89px;
 }
 #case_study_popup1 .modalContent{
+    border-radius: 25px;
     height: 395px;
     top: 45px;
 }
 #case_study_popup2 .modalContent{
+    border-radius: 25px;
     height: 316px;
     top: 85px;
 }
@@ -985,9 +990,11 @@ ul.bullet {
     margin-bottom: 10px;
 }
 .showlist0 {
+    left: 520px;
+    border-radius: 25px;
     background: #dde4eb;
     padding: 10px;
-    width: 33%;
+    width: 300px;
     height: 140px;
     right: 13px;
     top: 13px;
