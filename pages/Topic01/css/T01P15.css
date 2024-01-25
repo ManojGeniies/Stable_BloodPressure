@@ -69,20 +69,19 @@
         
         .clsPatch {
             position: absolute;
-            width: 96%;
+            width: 800px;
             height: 175px;
             background: #ffffff;
-            border-radius: 5px;
-            -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-            box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-            border-radius: 5px;
-            -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+            border-radius: 25px;           
             padding: 6px 0px;
-            left: 20px;
+            left: 85px;
             top:5px;
             opacity: 0;
             display: none;
+            /* -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);            
+            -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75); */
         }
         
         .clsText {
@@ -214,22 +213,22 @@
         
         .ClsImage1 {
             position: absolute;
-            background: #fff;
-            -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: 2px 2px 2px -2px rgba(0, 0, 0, 0.75);
-            box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-            border-radius: 5px;
-            -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+            background: #fff;            
             display: none;
             left: 125px;
             width: 721px;
             top: 220px;
             height: 280px;
+            border-radius: 25px;
+            /* -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 2px 2px 2px -2px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);           
+            -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
             -webkit-transition: all 0.3s ease-in-out;
             -moz-transition: all 0.3s ease-in-out;
             -ms-transition: all 0.3s ease-in-out;
             -o-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out; */
         }
         /* .ClsImage2 {
             position: absolute;
@@ -526,7 +525,7 @@
         
         .ClsTextTab {
             position: absolute;
-            width: 68%;
+            width: 400px;
             height: 374px;
             top: 0px;
             left: 320px;
@@ -965,17 +964,17 @@
 }
 .modalContent {
     width: 328px;
-    height: 412px;
+    height: 362px;
     top: 37px;
 }
 #case_study_popup1 .modalContent{
     width: 336px;
-    height: 363px;
+    height: 313px;
     top:61px;
 }
 #case_study_popup2 .modalContent{
     width: 316px;
-    height: 363px;
+    height: 313px;
     top: 61px;
 }
 .modal {
@@ -1015,11 +1014,13 @@ ul.bullet li.showlist2:before{
     margin-bottom: 10px;
 }
 .showlist0 {
+    border-radius: 25px;
     background: #dde4eb;
     padding: 10px;
-    width: 33%;
+    width: 305px;
     height: 140px;
-    right: 13px;
+    right: 0px;
+    left: 465px;
     top: 13px;
     position: absolute;
 }

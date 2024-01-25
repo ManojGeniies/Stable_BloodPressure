@@ -2,7 +2,11 @@
     display: inline-block;
 }
 ul.alertText{
-    left:394px;
+    border-radius: 25px;
+    width: 510px;
+    background: #fff;
+    height: 170px;
+    left: 394px;    
 }
 ul.alertText li {
     list-style: none;
@@ -24,12 +28,11 @@ ul.alertText li {
     top: 0px;
     height: 60px;
     background: #ffffff;
-    border-radius: 15px;
-    -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
+    /* -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-    border-radius: 5px;
-    -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75); */    
+    /* -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75); */
     /* padding: 0px 17px; */
 }
 
@@ -167,16 +170,17 @@ span {
     width: 924px;
     height: 337px;
     left: 29px;
-    background-color: white;
+    /* background-color: white; */
     top:80px;
     font-size: 14px;
     font-family: OpenSansRegular;
     padding: 6px 12px;
-    -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
+    /* -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-    border-radius: 5px;
-    -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75); */
+    
+    /* -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75); */
 }
 
 .bullet_Text p {
@@ -206,9 +210,10 @@ span {
 /*  */
 
 #image1 {
+    border: 10px solid #fff;
     background: url(../../../pages/images/Topic01/T01P12/01.png) no-repeat;
     background-size: contain;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 #idPatch1 {
@@ -382,8 +387,9 @@ span {
 }
 
 #imgPopup0 {
+    border-radius: 25px;
     background: url('../../../pages/images/Topic01/T01P12/01_large.png') no-repeat;
-    background-size: contain;
+    background-size: contain;    
 }
 
 .wrong {
@@ -422,7 +428,7 @@ span {
 .alertIconBox {
     position: absolute;
     width: 518px;
-    left: 380px;
+    left: 407px;
     top: 180px;
     height: 57px;
     background: #FFFFFF;
@@ -503,7 +509,7 @@ span {
     width: 513px;
     height: 384px;
     top: 48px;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.34) !important;
+    /* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.34) !important; */
 }
 /* .modalTxtImg {
     height: 458px;
