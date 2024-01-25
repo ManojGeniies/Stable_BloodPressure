@@ -159,6 +159,8 @@ display :none;
     width: 100%;
     height: 100%;
     /* top: 100px; */
+    background: #fff;
+    border-radius: 25px;
 }
 
 .mainImage {
@@ -199,12 +201,12 @@ display :none;
 
 .imgSubCnt_02 {
     position: absolute;
-    width: 208px;
+    width: 204px;
     left: 25px;
     top: 20px;
     background: #FFFFFF;
     border: 10px solid #FFFFFF;
-    height: 314px;
+    height: 310px;
     border-radius: 25px;
 }
 
@@ -304,13 +306,17 @@ display :none;
     width: 265px;
     height: 256px;
     background-size: contain;
-    border-radius: 5px;
+    border: 10px solid #fff;
+    border-radius: 25px;
+    left: -38px;
 }
 
 #clsSub9 {
     background: url('../../../pages/images/Topic01/T01P10/image_03_02.png') no-repeat;
     width: 339px;
-    height: 256px;
+    height: 250px;
+    border: 10px solid #fff;
+    left: -10px;
 }
 
 .expandMap {
@@ -893,8 +899,9 @@ width: 195px;
 
 #imgPopup9 {
     background: url('../../../pages/images/Topic01/T01P10/image_03_02_large.png') no-repeat;
-    width: 564px;
+    width: 567px;
     height: 410px;
+    border-radius: 25px;
 }
 
 
@@ -908,21 +915,21 @@ width: 195px;
 
 .warning {
     position: absolute;
-    width: 65px;
-    height: 64px;
-    top: 21px;
-    left: 1%;
+    width: 75px;
+    height: 74px;
+    top: 33px;
+    left: 15px;
     background: url(../../../media/images/new/caution.png);
     background-size: cover;
 }
 
 #section1 .warning {
-    top: 27px;
+    top: 10px;
 }
 
 #section1 #idText48 {
     width: 540px;
-    left: 75px;
+    left: 103px;
     top: 16px;
 }
 
@@ -1062,8 +1069,8 @@ width: 195px;
 
 #idPatch2 {
     width: 670px;
-    top: 25px;
-    height: 210px;
+    top: 20px;
+    height: 230px;
     left: 295px;
     font-size: 16px;
     padding: 10px;
@@ -1074,8 +1081,8 @@ width: 195px;
 #idPatch3 {
     width: 300px;
     top: 55px;
-    height: 235px;
-    left: 320px;
+    height: 251px;
+    left: 304px;
     font-size: 16px;
     padding: 10px;
     display: none;
@@ -1093,7 +1100,7 @@ width: 195px;
 }
 
 #idPatch4 .list_1 {
-    top: 6px;
+    top: 10px;
 }
 
 .clsPatch {
@@ -1117,16 +1124,17 @@ width: 195px;
     display: none;
     opacity: 0;
     height: 85px;
-    top: 140px;
-    width: 605px;
-    border-radius: 25px;
+    top: 151px;
+    width: 635px;
     left: 325px;
+    /* border-radius: 25px; */
+    /* border: 1px solid #F26C5B; */
 }
 
 #idPatchMain1 {
     padding: 6px 6px;
     width: 340px;
-    top: 200px;
+    top: 180px;
     left: 666px;
     height: 137px;
     display: none;
@@ -1135,10 +1143,14 @@ width: 195px;
 
 .box-brd.three {
     height: 70px;
+    border-radius: 25px;
+    border: 1px solid #F26C5B;
 }
 
 .box-brd.four {
     height: 123px;
+    border-radius: 25px;
+    border: 1px solid #F26C5B;
 }
 
 #idPatchMain1 #idText48 {
@@ -1171,7 +1183,7 @@ width: 195px;
 #idText48 {
     position: absolute;
     width: 533px;
-    left: 86px;
+    left: 100px;
     top: 18px;
     font-size: 16px;
     font-family: OpenSansRegular;
@@ -1185,7 +1197,7 @@ width: 195px;
     width: 1033px;
     height: 378px;
     top: 111px;
-    left: 35px;
+    left: 39px;
     border-radius: 25px;
 }
 
@@ -1194,7 +1206,11 @@ width: 195px;
     float: left;
     position: relative;
     top: 15px;
-    height: 345px;
+    height: 360px;
+
+    background: #fff;
+    border-radius: 25px;
+    right: 23px;
 }
 
 .sectionCenterCnt {
@@ -1202,13 +1218,21 @@ width: 195px;
     float: left;
     position: relative;
     top: 15px;
-    height: 345px;
+    height: 360px;
+
+    background: #fff;
+    border-radius: 25px;
+    right: 11px;
 }
 
 .sectionRightCnt {
     float: left;
     width: 380px;
-    height: 378px;
+    height: 360px;
+
+    background: #fff;
+    border-radius: 25px;
+    margin-top: 14px;
 }
 
 .titleHeading1 {
@@ -1220,7 +1244,7 @@ width: 195px;
     font-size: 14px;
     padding: 9px 10px;
     top: 10px;
-    border-radius: 5px;
+    border-radius: 25px;
     text-align: center;
     line-height: 16px;
     display: none;
@@ -1359,7 +1383,7 @@ width: 195px;
     line-height: 16px;
 }
 
-.borderLines {
+/* .borderLines {
     content: '';
     background: #3A5569;
     width: 2px;
@@ -1367,7 +1391,7 @@ width: 195px;
     position: absolute;
     top: 0px;
     right: 1px;
-}
+} */
 
 #imgPopupCnt1 .closepopup,
 #imgPopupCnt1 .open_map_close {
@@ -1402,5 +1426,5 @@ width: 195px;
 
 #clsSubImage8 .small_expand {
     bottom: 12px;
-    right: 14px;
+    right: 40px;
 }
