@@ -28,7 +28,7 @@ var updateContentArray = [
         event: "",
         show: "",
         hide: "",
-        transcript: "Determining the cause of shock and the degree of end-organ damage that has occurred are important goals of lab testing.<br A blood gas and lactate level will help assess the degree of shock an infant is experiencing. A complete blood count and blood culture will help investigate for infection, anemia, and thrombocytopenia.<br>Other important lab tests are listed on this screen. Click the PDF icons to learn more about lab testing.<br>Click Next to continue."
+        transcript: "Determining the cause of shock and the degree of end-organ damage that has occurred are important goals of lab testing.<br A blood gas and lactate level will help assess the degree of shock an infant is experiencing. A complete blood count and blood culture will help investigate for infection, anemia, and thrombocytopenia.<br>Other important lab tests are listed on this screen. Click the PDF icons to learn more about lab testing."
     },
     {
         time: "0",

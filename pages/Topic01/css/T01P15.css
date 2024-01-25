@@ -250,6 +250,7 @@
             transition: all 0.3s ease-in-out;
         } */
         .subFirstImage {
+            /* border-radius: 25px; */
             position: absolute;
             width:211px;
             height: 205px;
@@ -281,19 +282,19 @@
         #clsSub0 {
             background: url('../../../pages/images/Topic01/T01P15/01.png') no-repeat;
             background-size: cover;
-            border-radius: 5px;
+            border-radius: 25px;
 
         }
         #clsSub1 {
             background: url('../../../pages/images/Topic01/T01P15/02.png') no-repeat;
             background-size: cover;
-            border-radius: 5px;
+            border-radius: 25px;
 
         }
         #clsSub2 {
             background: url('../../../pages/images/Topic01/T01P15/03.png') no-repeat;
             background-size: cover;
-            border-radius: 5px;
+            border-radius: 25px;
 
         }
         #imgPopup0 {
