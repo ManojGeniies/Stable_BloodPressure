@@ -39,9 +39,11 @@
     0% {
         -webkit-transform: scale(1);
     }
+
     50% {
         -webkit-transform: scale(1.1);
     }
+
     100% {
         -webkit-transform: scale(1);
     }
@@ -55,6 +57,7 @@
         height: 0px;
         transform: scale(1);
     }
+
     50% {
         left: 105px;
         top: 10px;
@@ -62,6 +65,7 @@
         height: 235px;
         transform: scale(1.1);
     }
+
     100% {
         left: 105px;
         top: 10px;
@@ -214,7 +218,7 @@
     line-height: 25px;
     color: #5B5B5B;
     top: 10px;
-    left:7px;
+    left: 7px;
     width: 100%;
     opacity: 1;
     text-align: center;
@@ -260,9 +264,11 @@
     0% {
         -webkit-transform: scale(1);
     }
+
     50% {
         -webkit-transform: scale(1.1);
     }
+
     100% {
         -webkit-transform: scale(1);
     }
@@ -276,6 +282,7 @@
         height: 0px;
         transform: scale(1);
     }
+
     50% {
         left: 140px;
         top: 30px;
@@ -283,6 +290,7 @@
         height: 140px;
         transform: scale(1.1);
     }
+
     100% {
         left: 135px;
         top: 40px;
@@ -1139,7 +1147,7 @@
 }
 
 _:-ms-fullscreen,
- :root .CaseStudy {
+:root .CaseStudy {
     background: rgba(255, 255, 255, 0.98);
 }
 
@@ -1161,7 +1169,7 @@ _:-ms-fullscreen,
 }
 
 _:-ms-fullscreen,
- :root .feedbackFinal {
+:root .feedbackFinal {
     background: rgba(255, 255, 255, 0.98);
 }
 
@@ -1183,7 +1191,7 @@ _:-ms-fullscreen,
 }
 
 _:-ms-fullscreen,
- :root .caseStudyMap {
+:root .caseStudyMap {
     background: rgba(255, 255, 255, 0.98);
 }
 
@@ -1841,10 +1849,10 @@ return_case_button_vital:hover {
     top: 85px;
     left: 229px;
     background: #ffffff;
-    border-radius: 5px;
-    -webkit-box-shadow: 2px 2px 12px -1px rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
+    /* -webkit-box-shadow: 2px 2px 12px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 2px 2px 12px -1px rgba(0, 0, 0, 0.75);
-    box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.75); */
 }
 
 .ModalTextHeader2 {
@@ -2411,9 +2419,11 @@ return_case_button_vital:hover {
     0% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.2);
     }
+
     100% {
         transform: scale(1);
     }
@@ -2423,9 +2433,11 @@ return_case_button_vital:hover {
     0% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.2);
     }
+
     100% {
         transform: scale(1);
     }
@@ -2441,9 +2453,11 @@ return_case_button_vital:hover {
     0% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(0.67);
     }
+
     100% {
         transform: scale(1);
     }
@@ -2453,9 +2467,11 @@ return_case_button_vital:hover {
     0% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(0.67);
     }
+
     100% {
         transform: scale(1);
     }
@@ -2474,14 +2490,15 @@ return_case_button_vital:hover {
 
 .sectionTop {
     position: absolute;
-    top:2px;
+    top: 2px;
     height: 31px;
     width: 100%;
     padding: 15px 0px;
 }
+
 .titleText img {
     position: relative;
-    top:8px;
+    top: 8px;
     left: -12px;
     width: 34px;
 }
@@ -3221,7 +3238,7 @@ return_case_button_vital:hover {
 .pdfIcon0 {
     position: absolute;
     top: 256px;
-    left:35px;
+    left: 35px;
     height: 42px;
     width: 33px;
     cursor: pointer;
@@ -3416,7 +3433,8 @@ return_case_button_vital:hover {
 .return_case_button2_4 {
     font-size: 16px;
 }
+
 .modal .popover {
     bottom: 44px;
-    right:65px;
+    right: 65px;
 }

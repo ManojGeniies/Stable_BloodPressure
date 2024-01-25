@@ -261,10 +261,8 @@
     line-height: 20px;
     display: inline-block;
     border-radius: 5px;
-    background-color: #fff;
-    -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
-    -moz-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+   
+  
 }
 
 .subFirstImage {
@@ -910,10 +908,10 @@ section {
 
 			#references ul li a:active {
 
-				outline: none; */
+				outline: none; 
 
 
-}
+}*/
 #pagereferences ul li {
     border: 0 none;
     margin-left: -4px;
@@ -1014,18 +1012,33 @@ sub {
 }
 .leftSideImage {
     width: 250px;
-    height: 250px;
-    float: left;
-    margin-left:18px;
+    height: 340px;
+    float: left;   
+     position: relative;
+    margin-left: 9px;
+    left: -9px;
 }
 ul.bullet {
     line-height: 25px;
     width: 65%;
     margin-top: 77px;
+    background-color: white;
+    margin-left: 5px;
+    border-radius: 25px;
+    margin-left: 5px;
+    position: absolute;
+    left: 282px;
 }
+
 ul.bullet li {
     margin: 0px 0 15px;
 }
 ul.bullet li:first-child {
     margin-top: 20px;
+}
+img{
+    max-width: 100%;
+    background-color: white;
+    margin-right: 37px;
+    border-radius: 25px
 }

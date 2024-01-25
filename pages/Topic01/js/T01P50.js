@@ -15,7 +15,7 @@ var idd = 0;
 
 var updateContentArray = [
 
-{ time: "0", carry: "", event: "", show: "", hide: "", transcript: "Review the key points discussed in the Blood Pressure module, then click Next to continue." },
+{ time: "0", carry: "", event: "", show: "", hide: "", transcript: "Review the key points discussed in the Blood Pressure module." },
 
 ];
 
