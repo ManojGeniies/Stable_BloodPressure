@@ -2671,7 +2671,7 @@
             top: 10px;
             height: 522px;
             width: 1073px;
-            left: 15px;
+            left: 12px;
             right: 15px;
         }
         
@@ -2679,12 +2679,16 @@
             height: 100%;
             width: 264px;
             background: #E0F6FB;
-            box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
-            -webkit-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0);
+            -webkit-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0);
+            -moz-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0);
             border-radius: 7px 0 0 0;
             -webkit-radius: 7px 0 0 0;
             -moz-radius: 7px 0 0 0;
+            border-radius: 25px;
+            border:1px solid #3A5569;
+            z-index: 10;
+
         }
         
         .sectionRight {
@@ -2692,7 +2696,7 @@
     height: 507px;
     top: 0px;
     position: absolute;
-    left: 264px;
+    left: 273px;
         }
         
         .rightTop {
@@ -2788,6 +2792,7 @@
     border-bottom-right-radius: 5px;
     -webkit-bottom-top-right-radius: 5px;
     -moz-border-bottom-right-radius: 5px;
+    border-radius: 25px;
         }
         
         .topImgCnt {
@@ -2799,6 +2804,9 @@
         #topImgCnt1 {
             background: url('pages/images/Topic01/T01P24/01.png') no-repeat;
             background-size: cover;
+    height: 224px;
+    width: 266.5px;
+    border-radius: 25px 30px 25px 25px;
         }
         
         .small_expand,
@@ -2923,6 +2931,8 @@
             width: 100%;
             float: left;
             font-weight: bold;
+            border-top-left-radius: 24px;
+            border-top-right-radius: 24px;
         }
         ul.bullet li, ul.non-bullet li {
          margin: 0;
@@ -3795,9 +3805,10 @@
     }
     .slider-wrapper {
     background: #f2f1f1;
-    border-top-right-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-top-right-radius: 5px;
+    border-top-right-radius: 25px;
+    border-top-left-radius:25px;
+    -webkit-border-top-right-radius: 25px;
+    -moz-border-top-right-radius: 25px;
     width: 755px;
     height: 55px;
     padding: 10px 10px 5px 25px;
@@ -3851,6 +3862,7 @@
     display: block;
     height:198px;
     margin-bottom:6px;
+    border-radius: 25px;
 }
 .information.one{
     height:137px;
@@ -4183,10 +4195,10 @@ ul.bullet li, ul.non-bullet li{
             <div class="sectionContent">
                 <div class="sectionLeft">
                     <div class="topImgCnt" id="topImgCnt1">
-                        <div class="popover left-arrow clickToEnlarge">
+                        <!--<div class="popover left-arrow clickToEnlarge">
                             <div class="arrow" style="top: 50%;"></div>
                             <div class="popover-content">Click to enlarge image.</div>
-                        </div>
+                        </div>-->
                         <a href="javascript:void(0);" title="Click to enlarge image" class="small_expand zoom_btn" click_id="1">&nbsp;</a>
                     </div>
                     <div class="leftBottom">
@@ -4289,10 +4301,10 @@ ul.bullet li, ul.non-bullet li{
                     <div class="modalTextBottom" unselectable="on">Baby Girl Collins</div>
                     <a class="closepopup zoom_close_btn" href="javascript:void(0)" title="Click to Close"></a>
                     <!-- <div class="clickToContinue expandImgTxtRight clickToClose">Click to Close</div> -->
-                    <div class="popover left-arrow">
+                    <!--<div class="popover left-arrow">
                         <div class="arrow" style="top: 50%;"></div>
                         <div class="popover-content">Click to close image.</div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
