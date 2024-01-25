@@ -598,7 +598,7 @@ NOTE: if you are using z-index on the same level in the DOM -
 	position: absolute;
     height: 544px;
     width: 1085px;
-    top: 53px;
+    top: 61px;
     left: 0px;
 	/* background: url(../media/images/player/menu/Menu_cover_sheen.png) no-repeat; */
 	background-size: 100% 100%;
@@ -1756,8 +1756,8 @@ ul.alertText li:before {
     left: 0px;
     top: 28px;
     width: 1085px;
-    height: 480px;
-    background:rgba(255,255,255,0.3);
+    height: 486px;
+    background: rgba(255,255,255,0.3);
     transform: scale(1.1);
     transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
     z-index: 999999;

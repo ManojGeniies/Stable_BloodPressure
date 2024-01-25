@@ -13,22 +13,22 @@
     width: 1044px;
     left: 0px;
     top: 40px;
-    height:220px;
+    height:200px;
     background: #ffffff;
-    border-radius: 15px;
-    -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
+    /* -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
     border-radius: 5px;
-    -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-    /* padding: 0px 17px; */
+    -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75); */
+     /* padding: 0px 17px;  */
 }
 .questionHeader, .answerChoicestitle {
     background: #50697D;
     color: #fff;
     font-weight: bold;
     text-align: center;
-    padding: 5px;
+    padding: 9px;
     width: 170px;
     border-radius: 5px 0px 5px 0px;
     font-size: 16px;
@@ -42,9 +42,9 @@
 
 #idText41,
 #idText42 {
-    font-size: 16px;
+    font-size: 14px;
     font-family: OpenSansRegular;
-    margin: 12px;
+    margin: 3px;
 }
 
 .clsCircle {
@@ -162,18 +162,17 @@ span {
     height:215px;
     left: 0;
     background-color: white;
-    /* border: 1px solid grey; */
+     /* border: 1px solid grey;  */
     top:280px;
-    border-radius: 2px;
+    border-radius: 25px;
     font-size: 16px;
     font-family: OpenSansRegular;
-    
-    -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    /* -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
     border-radius: 5px;
-    -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-    /* padding: 0px 17px; */
+    -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75); */
+     /* padding: 0px 17px;  */
     line-height: 17px;
 }
 
@@ -486,12 +485,14 @@ ul {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
 }
-
+label{
+    font-size: 14px;
+}
 .bottomTxt {
     position: relative;
     float: right;
-    bottom: -28px;
-    right: 10px;
+    bottom: -16px;
+    right: 20px;
     width: 97px;
 }
 
