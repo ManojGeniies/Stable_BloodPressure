@@ -50,7 +50,8 @@ var updateContentArray = [
         event: "",
         show: "",
         hide: "",
-        transcript: "After reviewing Baby William's case, click Next to continue."
+        // transcript: "After reviewing Baby William's case, click Next to continue."
+        transcript: "After reviewing Baby William's case"
     },
 
 ];
@@ -74,27 +75,27 @@ function fnAudioFinishItemComp() {
 }
 var __dataXml;
 $(document).ready(function () {
-	//console.log("done");
-	disableNextBtn();
-	var ele = document.getElementsByTagName('div');
-	for (var i = 0; i < ele.length; i++) {
-		ele[i].setAttribute("unselectable", "on");
-	}
+    //console.log("done");
+    disableNextBtn();
+    var ele = document.getElementsByTagName('div');
+    for (var i = 0; i < ele.length; i++) {
+        ele[i].setAttribute("unselectable", "on");
+    }
 
-	var n = isInArray("M1L0T1P6", gCompPageArr);
-	if (n == true) {
-		enableNextBtn();
-		// fnGlowNextBtn();
-		fnDesiableNext(false)
-
-
+    var n = isInArray("M1L0T1P6", gCompPageArr);
+    if (n == true) {
+        enableNextBtn();
+        // fnGlowNextBtn();
+        fnDesiableNext(false)
 
 
-	}
-	setTimeout(function () {
-		//$("#clsNxtBtn").removeClass("clsGlowNxtBtn").addClass("clsDisNxtBtn");
-	}, 500);
-	var __currentCase = '';
+
+
+    }
+    setTimeout(function () {
+        //$("#clsNxtBtn").removeClass("clsGlowNxtBtn").addClass("clsDisNxtBtn");
+    }, 500);
+    var __currentCase = '';
 });
 
 
@@ -122,16 +123,16 @@ function audioReset() {
 
 
 function fnCompletion() {
-	console.log("end");
-	console.log("start new");
-	enableNextBtn();
-	fnAudioFinishItemComp();
+    console.log("end");
+    console.log("start new");
+    enableNextBtn();
+    fnAudioFinishItemComp();
 
 }
 
 
 function fnOnAudioComplete() {
-	if (gAudioId == "startAudio") {
+    if (gAudioId == "startAudio") {
         enableNextBtn();
         fnAudioFinishItemComp();
         gCompPageArr.push("M1L0T1P6");
@@ -140,16 +141,16 @@ function fnOnAudioComplete() {
         var aud = document.getElementById("audioplayer");
         aud.pause();
         aud.currentTime = 0;
-		fnClick();
-	} else {
-		
-	}
+        fnClick();
+    } else {
+
+    }
 }
 
 function expandIconAndClose() {
     $(".clickToEnlarge").show();
     $(".small_expand").show();
-    $(".small_expand").on("click", function() {
+    $(".small_expand").on("click", function () {
         fnPauseAudio();
         //pauseAudio();
 
@@ -162,7 +163,7 @@ function expandIconAndClose() {
 
     });
 
-    $(".closepopup").on("click", function() {
+    $(".closepopup").on("click", function () {
         fnPlayAudio();
         //playAudio();
 

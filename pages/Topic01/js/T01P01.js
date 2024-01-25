@@ -1,24 +1,24 @@
 
 manifest = [{
-        src: 'pages/images/Topic01/T01P01/01.png',
-        id: '1'
-    },
+    src: 'pages/images/Topic01/T01P01/01.png',
+    id: '1'
+},
 
-    {
-        src: 'pages/images/Topic01/T01P01/02.png',
-        id: '2'
-    },
+{
+    src: 'pages/images/Topic01/T01P01/02.png',
+    id: '2'
+},
 
-    {
-        src: 'pages/images/Topic01/T01P01/03.png',
-        id: '3'
-    },
+{
+    src: 'pages/images/Topic01/T01P01/03.png',
+    id: '3'
+},
 
 
-    {
-        src: 'pages/images/Topic01/T01P01/module_objective_banner.png',
-        id: '6'
-    }
+{
+    src: 'pages/images/Topic01/T01P01/module_objective_banner.png',
+    id: '6'
+}
 ];
 
 var audioPath = "pages/audio/Topic01/T01P01/T01P01";
@@ -39,7 +39,7 @@ var updateContentArray = [
         event: "",
         show: "",
         hide: "",
-        transcript: "By the end of this module, you will be able to:<ul class='transcript'><li>Explain factors that influence cardiac output,</li><li>Describe physical exam findings to assess infants for shock,</li><li>Identify changes in vital signs that are observed when an infant is in shock, and</li><li>Explain the causes and initial treatment of the four major types of shock: hypovolemic, obstructive, cardiogenic, and septic/distributive shock.</li></ul>Click Next to continue.",
+        transcript: "By the end of this module, you will be able to:<ul class='transcript'><li>Explain factors that influence cardiac output,</li><li>Describe physical exam findings to assess infants for shock,</li><li>Identify changes in vital signs that are observed when an infant is in shock, and</li><li>Explain the causes and initial treatment of the four major types of shock: hypovolemic, obstructive, cardiogenic, and septic/distributive shock.</li></ul>",
         animation: [{
             target: ".clsBG",
             duration: "3.0",
@@ -208,12 +208,12 @@ function fnAudioFinishItemComp() {
 
 
 
-$(document).ready(function() {
+$(document).ready(function () {
 
     disableNextBtn();
 
     console.log(gCompPageArr);
-			
+
 
     var n = isInArray("M1L0T1P1", gCompPageArr);
 
