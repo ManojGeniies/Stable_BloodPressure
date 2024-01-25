@@ -2890,7 +2890,7 @@ return_case_button_vital:hover {
     top: 20px;
     height: 507px;
     width: 1055px;
-    left: 15px;
+    left: 12px;
     right: 15px;
 }
 
@@ -2898,12 +2898,15 @@ return_case_button_vital:hover {
     height: 100%;
     width: 264px;
     background: #E0F6FB;
-    box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0);
     border-bottom-left-radius: 7px;
     -webkit-border-bottom-left-radius: 7px;
     -moz-border-bottom-left-radius: 7px;
+    border-radius: 25px;
+    border:1px solid #3A5569;
+    z-index: 10;
 }
 
 .sectionRight {
@@ -2911,7 +2914,7 @@ return_case_button_vital:hover {
     height: 507px;
     top: 0px;
     position: absolute;
-    left: 264px;
+    left: 273px;
 }
 
 .rightTop {
@@ -3008,6 +3011,7 @@ return_case_button_vital:hover {
     border-bottom-right-radius: 5px;
     -webkit-bottom-top-right-radius: 5px;
     -moz-border-bottom-right-radius: 5px;
+    border-radius: 25px;
 }
 
 .topImgCnt {
@@ -3019,6 +3023,9 @@ return_case_button_vital:hover {
 #topImgCnt1 {
     background: url('../../../pages/images/Topic01/T01P24/01.png') no-repeat;
     background-size: cover;
+    height: 224px;
+    width: 266.5px;
+    border-radius: 25px 30px 25px 25px;
 
 }
 
@@ -3027,6 +3034,7 @@ return_case_button_vital:hover {
     background-size: contain;
     height: 160px;
     width: 242px;
+    border-radius: 25px;
     position: absolute;
     right: 0px;
     top:-7px;
@@ -3038,6 +3046,7 @@ return_case_button_vital:hover {
     width:165px;
     position: absolute;
     right: 40px;
+    border-radius: 25px;
     bottom: 33px;
 }
 
@@ -3796,6 +3805,8 @@ a[rel='Case']:before {
 .topHeading{
     width:100%;
     float: left;
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
 }
 ul.bullet {
     padding-left: 25px;
@@ -3806,9 +3817,10 @@ ul.bullet li, ul.non-bullet li {
 }
 .slider-wrapper {
     background: #f2f1f1;
-    border-top-right-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-top-right-radius: 5px;
+    border-top-right-radius: 25px;
+    border-top-left-radius:25px;
+    -webkit-border-top-right-radius: 25px;
+    -moz-border-top-right-radius: 25px;
     width: 755px;
     height: 55px;
     padding: 10px 10px 5px 25px;
@@ -3888,6 +3900,7 @@ ul.bullet li, ul.non-bullet li {
     display: block;
     height: 195px;
     margin-bottom: 10px;
+    border-radius: 25px;
 }
 .information .topHeading, .rightCnt .topHeading{
     color:#ffffff;

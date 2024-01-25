@@ -2909,7 +2909,7 @@ return_case_button_vital:hover {
     top: 20px;
     height: 507px;
     width: 1055px;
-    left: 15px;
+    left: 13px;
     right: 15px;
 }
 
@@ -2924,6 +2924,8 @@ return_case_button_vital:hover {
     -webkit-border-bottom-left-radius: 7px;
     -moz-border-bottom-left-radius: 7px;
     border-radius: 25px;
+    border:1px solid #3A5569;
+    z-index: 10;
 }
 
 .sectionRight {
@@ -2931,7 +2933,17 @@ return_case_button_vital:hover {
     height: 507px;
     top: 0px;
     position: absolute;
-    left: 264px;
+    left: 270px;
+}
+.overallImgBorder {
+    z-index: 10;
+    border: 1px solid #3A5569;
+    width: 264px;
+    height: 421px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 25px 25px 25px 25px;
 }
 
 .rightTop {
@@ -3040,6 +3052,9 @@ return_case_button_vital:hover {
 #topImgCnt1 {
     background: url('../../../pages/images/Topic01/T01P24/01.png') no-repeat;
     background-size: cover;
+    height: 224px;
+    width: 266.5px;
+    border-radius: 25px 30px 25px 25px;
 }
 
 .information span {
@@ -3057,6 +3072,8 @@ return_case_button_vital:hover {
 #topImgCnt2 .small_expand1 {
     display: block;
     opacity: 1;
+    bottom:7px;
+    right:2px;
 }
 .informationRight, .fedContent, #topImgCnt2 {
     display: none;
@@ -3117,13 +3134,14 @@ return_case_button_vital:hover {
 .leftBottom {
     position: relative;
     height: 252px;
+    top:215px;
 }
 
 .leftBottom h3 {
     padding: 0px;
     margin: 0px;
     position: relative;
-    top: 12px;
+    top: 25px;
     text-align: center;
     font-family: OpenSansSemiBold;
     font-size: 20px;
@@ -3314,7 +3332,7 @@ return_case_button_vital:hover {
     color: #ffffff;
     border-radius: 5px;
     border-radius: 5px;
-    -webkit-border-radius: 25px;
+    -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     text-transform: capitalize;
     line-height: 21px;
@@ -3802,9 +3820,10 @@ ul.bullet {
 }
 .slider-wrapper {
     background: #f2f1f1;
-    border-top-right-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-top-right-radius: 5px;
+    border-top-right-radius: 25px;
+    border-top-left-radius:25px;
+    -webkit-border-top-right-radius: 25px;
+    -moz-border-top-right-radius: 25px;
     width: 755px;
     height: 55px;
     padding: 10px 10px 5px 25px;
@@ -3845,7 +3864,7 @@ ul.bullet {
 .fedContent {
     width: 100%;
     position: absolute;
-    bottom:10px;
+    bottom:-70px;
 }
 .modalContent{
     width: 388px;
@@ -3878,12 +3897,16 @@ ul.bullet {
     float: left;
     font-weight: bold;
     margin-bottom: 5px;
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+
 }
 .information{
     border: 1px solid #3A5569;
     display: block;
     height: 185px;
     margin-bottom: 10px;
+    border-radius: 25px;
 }
 .information .topHeading, .rightCnt .topHeading{
     color:#ffffff;
@@ -3895,19 +3918,20 @@ ul.bullet li, ul.non-bullet li{
     margin: 3px 0;
 }
 .leftCnt {
-    width: 49%;
+    width: 51%;
     position: absolute;
-    left:10px;
+    left:5px;
     top:80px;
 }
 .rightCnt {
     width: 47%;
     position: absolute;
-    right: 11px;
+    right: 5px;
     top:80px;
     display: none;
     border: 1px solid #3A5569;
     height:408px;
+    border-radius: 25px;
 }
 
 

@@ -36,7 +36,7 @@ var clickTabCount1 = 0;
 
 var updateContentArray = [
 
-    { time: "0", carry: "", event: "", show: "", hide: "", transcript: "Review the stabilization care provided over the next 20 to 30 minutes after admission, then click Next to continue." },
+    { time: "0", carry: "", event: "", show: "", hide: "", transcript: "Review the stabilization care provided over the next 20 to 30 minutes after admission." },
 
     {
         time: "0",

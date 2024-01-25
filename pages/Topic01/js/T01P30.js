@@ -36,7 +36,7 @@ var clickTabCount1 = 0;
 
 var updateContentArray = [
 
-    { time: "0", carry: "", event: "", show: "", hide: "", transcript: "Now review Baby Girl Collins’s vital signs, physical exam, and lab results 50 minutes after admission, then click Next to continue." },
+    { time: "0", carry: "", event: "", show: "", hide: "", transcript: "Now review Baby Girl Collins’s vital signs, physical exam, and lab results 50 minutes after admission." },
 
     {
         time: "0",
