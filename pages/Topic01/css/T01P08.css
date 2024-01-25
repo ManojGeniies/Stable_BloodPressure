@@ -97,7 +97,7 @@
     width: 922px;
     margin: 0px auto;
     position: absolute;
-    top:24px;
+    top: 24px;
     left: 120px;
     height: 467px;
 }
@@ -106,9 +106,9 @@
     width: 90%;
     height: 467px;
     outline: none;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+    border-radius: 25px;
+    /* -webkit-border-radius: 5px;
+    -moz-border-radius: 5px; */
 }
 
 
@@ -160,5 +160,3 @@ video::-internal-media-controls-overflow-button {
     cursor: pointer;
     display: none;
 }
-
-

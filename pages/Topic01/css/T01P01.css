@@ -50,13 +50,9 @@
 
 .icon-container {
     position: absolute;
-    /*width: 100%;
-    top: 190px;
-    left: 0px;
-    height: 350px;*/
-    width: 98%;
+    width: 99%;
     top: 215px;
-    left: 10px;
+    left: 5px;
     height: 315px;
     border-radius: 25px;
     background: #ffffff;

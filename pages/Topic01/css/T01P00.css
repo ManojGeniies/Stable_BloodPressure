@@ -1,9 +1,9 @@
 .yellowBorder:after {
     content: "";
     position: absolute;
-    width: 545px;
+    width: 650px;
     height: 55px;
-    border: 2px solid #F26C5B;
+    border: 1px solid #F26C5B;
     border-radius: 25px;
     left: -185px;
     top: -5px;
@@ -79,10 +79,10 @@
 .clsIcon {
     position: absolute;
     background: url("../../../pages/images/Topic01/T01P00/Icon01.png");
-    width: 35px;
-    height: 34px;
-    left: -40px;
-    top: 55px;
+    width: 55px;
+    height: 54px;
+    left: -55px;
+    top: 46px;
     background-size: contain;
     display: none;
 }
@@ -91,7 +91,7 @@
     position: absolute;
     font-size: 16px;
     font-family: OpenSansRegular;
-    width: 385px;
+    width: 470px;
     top: 50px;
     left: 8px;
     display: none;
