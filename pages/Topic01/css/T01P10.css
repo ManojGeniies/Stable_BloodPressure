@@ -110,7 +110,7 @@
     left: 0px;
     cursor: pointer;
     color: #000;
-    border-radius: 25px;
+    border-radius: 25px 25px 0px 0px;
 }
 
 .clsBox {
@@ -199,9 +199,13 @@ display :none;
 
 .imgSubCnt_02 {
     position: absolute;
-    width: 225px;
+    width: 208px;
     left: 25px;
     top: 20px;
+    background: #FFFFFF;
+    border: 10px solid #FFFFFF;
+    height: 314px;
+    border-radius: 25px;
 }
 
 .imgSubCnt_03 {
@@ -252,6 +256,7 @@ display :none;
     height: 144px;
     left: 0px;
     top: 0px;
+    border-radius: 25px;
 }
 
 .subSecImage {
@@ -653,7 +658,7 @@ width: 195px;
     color: #FFFFFF;
 }
 
-.clsActive:after {
+/* .clsActive:after {
     top: 98%;
     left: 45%;
     border: solid transparent;
@@ -663,7 +668,7 @@ width: 195px;
     position: absolute;
     border-top-color: #3A5569;
     border-width: 15px;
-}
+} */
 
 .Chkmark {
     display: none;
@@ -783,82 +788,99 @@ width: 195px;
     width: 528px;
     height: 385px;
     top: 50px;
+    border-radius: 25px;
+    border: 2px solid #000;
 }
 
 #imgPopupCnt2 {
     width: 509px;
     height: 384px;
     top: 50px;
+    border-radius: 25px;
+    border: 2px solid #000;
 }
 
 #imgPopupCnt3 {
     width: 510px;
     height: 383px;
     top: 50px;
+    border-radius: 25px;
+    border: 2px solid #000;
 }
 
 #imgPopupCnt4 {
     width: 513px;
     height: 385px;
     top: 50px;
+    border-radius: 25px;
+    border: 2px solid #000;
 }
 
 #imgPopupCnt5 {
     width: 620px;
     height: 410px;
+    border-radius: 25px;
+    border: 2px solid #000;
 }
 
 #imgPopupCnt6 {
     width: 427px;
     height: 384px;
     top: 49px;
+    border-radius: 25px;
+    border: 2px solid #000;
 }
 
 
 #imgPopupCnt8 {
     width: 443px;
     height: 409px;
+    border-radius: 25px;
+    border: 2px solid #000;
 }
 
 #imgPopupCnt9 {
     width: 565px;
     height: 410px;
+    border-radius: 25px;
+    border: 2px solid #000;
 }
 
 #imgPopup1 {
     background: url('../../../pages/images/Topic01/T01P10/image_01_01_large.png') no-repeat;
     background-size: contain;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 #imgPopup2 {
     background: url('../../../pages/images/Topic01/T01P10/image_01_02_large.png') no-repeat;
     background-size: contain;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 #imgPopup3 {
     background: url('../../../pages/images/Topic01/T01P10/image_01_03_large.png') no-repeat;
     background-size: contain;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 #imgPopup4 {
     background: url('../../../pages/images/Topic01/T01P10/image_01_04_large.png') no-repeat;
     background-size: contain;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 #imgPopup5 {
     background: url('../../../pages/images/Topic01/T01P10/image_01_05_large.png') no-repeat;
     width: 620px;
     height: 410px;
+    border-radius: 25px;
 }
 
 #imgPopup6 {
     background: url('../../../pages/images/Topic01/T01P10/image_02_01_large.png') no-repeat;
     background-size: contain;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 #imgPopup8 {
@@ -866,7 +888,7 @@ width: 195px;
     width: 444px;
     height: 410px;
     background-size: contain;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 #imgPopup9 {
@@ -1027,8 +1049,9 @@ width: 195px;
     background: #FFFFFF;
     font-size: 12px;
     padding: 2px 9px;
-    top: 15px;
+    top: 10px;
     left: 0px;
+    border-radius: 25px;
 }
 
 #clsTitleTxt3 {
@@ -1040,7 +1063,7 @@ width: 195px;
 #idPatch2 {
     width: 726px;
     top: 25px;
-    height: 110px;
+    height: 210px;
     left: 260px;
     font-size: 16px;
     padding: 10px;
@@ -1080,13 +1103,13 @@ width: 195px;
     width: 726px;
     height: 100px;
     background: #ffffff;
-    border-radius: 5px;
-    -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
+    /* -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
     border-radius: 5px;
     -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-    padding: 6px 6px;
+    padding: 6px 6px; */
 }
 
 #idPatchMain {
@@ -1155,13 +1178,13 @@ width: 195px;
 }
 
 .sectionFourCnt {
-    background: #fff;
+    /* background: #fff; */
     position: absolute;
     width: 1033px;
     height: 378px;
     top: 111px;
     left: 25px;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 .sectionLeftCnt {
