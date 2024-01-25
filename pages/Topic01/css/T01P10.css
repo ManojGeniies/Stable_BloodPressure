@@ -908,11 +908,11 @@ width: 195px;
 
 .warning {
     position: absolute;
-    width: 42px;
-    height: 40px;
+    width: 65px;
+    height: 64px;
     top: 21px;
-    left: 20px;
-    background: url(../../../media/images/new/warning.png);
+    left: 1%;
+    background: url(../../../media/images/new/caution.png);
     background-size: cover;
 }
 
@@ -1061,10 +1061,10 @@ width: 195px;
 }
 
 #idPatch2 {
-    width: 726px;
+    width: 670px;
     top: 25px;
     height: 210px;
-    left: 260px;
+    left: 295px;
     font-size: 16px;
     padding: 10px;
     display: none;
@@ -1117,8 +1117,10 @@ width: 195px;
     display: none;
     opacity: 0;
     height: 85px;
-    top: 215px;
-    width: 650px;
+    top: 140px;
+    width: 605px;
+    border-radius: 25px;
+    left: 325px;
 }
 
 #idPatchMain1 {
@@ -1183,7 +1185,7 @@ width: 195px;
     width: 1033px;
     height: 378px;
     top: 111px;
-    left: 25px;
+    left: 35px;
     border-radius: 25px;
 }
 

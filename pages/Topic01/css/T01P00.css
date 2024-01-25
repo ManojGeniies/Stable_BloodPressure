@@ -1,7 +1,7 @@
 .yellowBorder:after {
     content: "";
     position: absolute;
-    width: 650px;
+    width: 700px;
     height: 55px;
     border: 1px solid #F26C5B;
     border-radius: 25px;
@@ -42,7 +42,7 @@
 
 #idPatch1 {
     top: 155px;
-    left: 220px;
+    left: 225px;
     background-position: left;
     height: 167px;
     background: #FFFFFF;
@@ -81,7 +81,7 @@
     background: url("../../../pages/images/Topic01/T01P00/Icon01.png");
     width: 55px;
     height: 54px;
-    left: -55px;
+    left: -62px;
     top: 46px;
     background-size: contain;
     display: none;
@@ -91,9 +91,9 @@
     position: absolute;
     font-size: 16px;
     font-family: OpenSansRegular;
-    width: 470px;
+    width: 493px;
     top: 50px;
-    left: 8px;
+    left: 3px;
     display: none;
 }
 
