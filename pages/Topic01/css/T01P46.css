@@ -286,6 +286,7 @@
     #imgPopup0, #imgPopup1 {
         background: url(../../../pages/images/Topic01/T01P46/01_lg.png) no-repeat;
         background-size: contain;
+        border-radius: 25px;
     }
     .modalContent {
         width: 512px;
