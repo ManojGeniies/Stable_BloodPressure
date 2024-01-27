@@ -230,7 +230,7 @@ display :none;
     top: 50px;
     width: 340px;
     height: 267px;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 25px;
 }
 #clsSub14{
@@ -245,7 +245,7 @@ display :none;
     position: absolute;
     right: 25px;
     top: 0px;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 25px;
     left: 670px;
     top: 14px;
@@ -330,6 +330,7 @@ display :none;
     height: 124px;
     left: 0px;
     top: 0px;
+    border-radius: 25px;
 }
 
 .subSecImage {
@@ -352,7 +353,7 @@ display :none;
 #clsSub4 {
     background: url('../../../pages/images/Topic01/T01P35/04.png') no-repeat;
     background-size: cover;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 #clsSub5 {
     background: url('../../../pages/images/Topic01/T01P35/05.png') no-repeat;
@@ -390,11 +391,13 @@ display :none;
 }
 #clsSub14 {
     background: url('../../../pages/images/Topic01/T01P35/14.png') no-repeat;
+    border: 10px solid white;
 }
 
 #clsSub15 {
     background: url('../../../pages/images/Topic01/T01P35/15.png') no-repeat;
-    border-radius: 5px;
+    border-radius: 25px;
+    border: 10px solid white;
 }
 #clsSubImage13 {
     width: 195px;
@@ -1158,17 +1161,14 @@ width: 195px;
     top:6px;
 }
 .clsPatch {
-    top: -6px;
+    top: 1px;
     left: 127px;
     background-position: left;
-    height: 40px;
+    height: 36px;
     background: #FFFFFF;
     border-radius: 6px;
     position: relative;
     width: 698px;
-    /* -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75); */
     border-radius: 25px;
     /* -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75); */
     padding: 5px 16px;
