@@ -214,11 +214,12 @@ span.tooltip {
 .Stable{
     background: url(../media/images/new/Stablebg.png) no-repeat;
     background-size: cover;
-    width: 128px;
-    height: 63px;
+    width: 129px;
+    height: 62px;
     position: absolute;
-    left: 63px;
+    left: 62px;
     top: 0;
+
 }
 .Stable-text{
     background: url(../media/images/new/Stable.png) no-repeat;
@@ -296,7 +297,7 @@ span.tooltip {
 
 #clsPlayPauseBtn {
     position: absolute;
-    left: 65px;
+    left: 63px;
     width: 64px;
     height: 65px;
     top: 1px;
@@ -367,7 +368,7 @@ span.clsPlayPauseBtnIcon {
     width: 64px;
     height: 65px;
     top: 1px;
-    left: 130px;
+    left: 126px;
     position: absolute;
 }
 
@@ -397,9 +398,9 @@ span.clsPlayPauseBtnIcon {
 #clsAudioOffBtn {
     position: absolute;
     width: 64px;
-    height: 64px;
-    top: 2px;
-    right: 178px;
+    height: 66px;
+    top: 1px;
+    right: 173px;
 }
 
 .clsAudioDis {
@@ -442,7 +443,7 @@ span.clsPlayPauseBtnIcon {
     position: absolute;
     cursor: pointer;
     width: 64px;
-    height: 64px;
+    height: 66px;
     top: 0px;
     left: 0px;
     background: url("../media/images/player/common/unmute.png") no-repeat;

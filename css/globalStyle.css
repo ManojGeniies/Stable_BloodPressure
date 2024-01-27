@@ -1754,9 +1754,9 @@ ul.alertText li:before {
 .modal{
     position: absolute;
     left: 0px;
-    top: 28px;
-    width: 1085px;
-    height: 486px;
+    top: 39px;
+    width: 1080px;
+    height: 475px;
     background: rgba(255,255,255,0.3);
     transform: scale(1.1);
     transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
@@ -1766,6 +1766,9 @@ ul.alertText li:before {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     display: none;
+}
+.titleText {
+    top: 27px !important;
 }
 
 .modal.height_100{

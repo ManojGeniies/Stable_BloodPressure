@@ -122,8 +122,8 @@ span {
     position: absolute;
     width: 235px;
     height: 25px;
-    top: 85px;
-    left: 189px;
+    /* top: 85px; */
+    /* left: 189px; */
     font-size: 14px;
     color: #000;
     font-family: OpenSansRegular;
