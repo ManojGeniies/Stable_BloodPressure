@@ -155,7 +155,14 @@ select option {
     font-size: 14px;
     font-family: OpenSansRegular;
 }
-
+.indicateStyle {
+    color: #4D667B;
+    font-style: italic;
+    font-size: 16px !important;
+    font-family: OpenSansRegular;
+    align-items: center;
+    top: -10px;
+}
 span {
     position: absolute;
     width: 100%;

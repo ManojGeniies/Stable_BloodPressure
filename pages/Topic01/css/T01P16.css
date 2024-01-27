@@ -271,6 +271,7 @@
             border-radius: 25px;
             background: url('../../../pages/images/Topic01/T01P16/05_lg.png') no-repeat;
             background-size:contain;
+            height: 296px 
         }
         
         .expandMap .clickToEnlarge {
@@ -290,7 +291,7 @@
             height: 36px;
             background: url('../../../pages/images/common//close_expand.png') no-repeat;
             bottom: 9px;
-            right: 11px;
+            right: 10px;
             cursor: pointer;
             z-index: 1000;
             text-decoration: none;
@@ -383,8 +384,8 @@
             height: 28px;
             position: absolute;
             display: none;
-            right: 10px;
-            bottom: 0;
+            right: 13px;
+            bottom: -12px;
             float: inherit;
             text-decoration: none;
             /* border-radius: inherit; */
