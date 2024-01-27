@@ -3078,7 +3078,7 @@ return_case_button_vital:hover {
     width: 28px;
     height: 28px !important;
     position: absolute !important;
-    bottom: 24px;
+    bottom: 10px;
     right: 10px;
     display: none;
     opacity: 0;
@@ -3086,7 +3086,7 @@ return_case_button_vital:hover {
     top: inherit !important;
     float: inherit !important;
     text-decoration: none !important;
-    border-radius: inherit !important;
+    /*border-radius: inherit !important;*/
     margin-left: 0px !important;
     background-color: inherit !important;
     padding: 0px !important;
@@ -3102,14 +3102,14 @@ return_case_button_vital:hover {
     width: 28px;
     height: 28px !important;
     position: absolute !important;
-    bottom: -10px;
-    right: -2px;
+    bottom: 10px;
+    right: 10px;
     display: none;
     opacity: 0;
     left: inherit !important;
     float: inherit !important;
     text-decoration: none !important;
-    border-radius: inherit !important;
+    /*border-radius: inherit !important;*/
     margin-left: 0px !important;
     background-color: inherit !important;
     padding: 0px !important;
@@ -3826,7 +3826,7 @@ ul.bullet li, ul.non-bullet li {
     margin:0;
 }
 ol.number {
-    padding-left:26px;
+    padding-left:50px;
 }
 ol.number li {
     float: left;

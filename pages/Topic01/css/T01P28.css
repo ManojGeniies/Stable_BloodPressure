@@ -3072,7 +3072,7 @@ return_case_button_vital:hover {
     width: 28px;
     height: 28px !important;
     position: absolute !important;
-    bottom: 24px;
+    bottom: 10px;
     right: 10px;
     display: none;
     opacity: 0;
@@ -3080,7 +3080,7 @@ return_case_button_vital:hover {
     top: inherit !important;
     float: inherit !important;
     text-decoration: none !important;
-    border-radius: inherit !important;
+    /*border-radius: inherit !important;*/
     margin-left: 0px !important;
     background-color: inherit !important;
     padding: 0px !important;
@@ -3096,20 +3096,21 @@ return_case_button_vital:hover {
     width: 28px;
     height: 28px !important;
     position: absolute !important;
-    bottom: -2px;
-    right: 0px;
+    bottom: 10px;
+    right: 10px;
     display: none;
     opacity: 0;
     left: inherit !important;
     float: inherit !important;
     text-decoration: none !important;
-    border-radius: inherit !important;
+    /*border-radius: inherit !important;*/
     margin-left: 0px !important;
     background-color: inherit !important;
     padding: 0px !important;
 }
 .small_expand1 {
-    bottom:-29px !important;
+    bottom:10px !important;
+    right:10px;
 }
 .small_expand1:hover, .small_expand2:hover  {
     background: url('../../../pages/images/common/small_expand_hover.png') no-repeat !important;

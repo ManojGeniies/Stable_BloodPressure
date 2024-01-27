@@ -2621,14 +2621,14 @@ return_case_button_vital:hover {
     width: 28px;
     height: 28px !important;
     position: absolute !important;
-    bottom: 24px;
+    bottom: 10px;
     right: 10px;
     display: block;
     left: inherit !important;
     top: inherit !important;
     float: inherit !important;
     text-decoration: none !important;
-    border-radius: inherit !important;
+    /*border-radius: inherit !important;*/
     margin-left: 0px !important;
     background-color: inherit !important;
     padding: 0px !important;
