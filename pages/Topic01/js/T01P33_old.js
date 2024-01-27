@@ -39,7 +39,7 @@ var updateContentArray0 = [{
     event: "",
     show: "",
     hide: "",
-    transcript: "That is correct. Click Next to continue."
+    transcript: "That is correct."
 }];
 var updateContentArray1 = [{
     time: "0.0",
@@ -47,7 +47,7 @@ var updateContentArray1 = [{
     event: "",
     show: "",
     hide: "",
-    transcript: "Here is some feedback on your response. Click Next to continue."
+    transcript: "Here is some feedback on your response."
     // transcript: "Here is some feedback on your response.  You have selected one or more options that are not actions that should be taken. Click Next to continue."
 }];
 var updateContentArray2 = [{
@@ -56,7 +56,7 @@ var updateContentArray2 = [{
     event: "",
     show: "",
     hide: "",
-    transcript: "Here is some feedback on your response. The actions highlighted in blue are also actions that should be taken. Click Next to continue."
+    transcript: "Here is some feedback on your response. The actions highlighted in blue are also actions that should be taken."
     // transcript: "You’re almost right. The actions highlighted in blue are also actions that should be taken. Click Next to continue."
 }];
 var updateContentArray3 = [{
@@ -65,7 +65,7 @@ var updateContentArray3 = [{
     event: "",
     show: "",
     hide: "",
-    transcript: "Here is some feedback on your response. The actions highlighted in blue are also actions that should be taken. Click Next to continue."
+    transcript: "Here is some feedback on your response. The actions highlighted in blue are also actions that should be taken."
 }];
 var updateContentArray4 = [{
     time: "0.0",
@@ -73,7 +73,7 @@ var updateContentArray4 = [{
     event: "",
     show: "",
     hide: "",
-    transcript: "Here is some feedback on your response. The actions highlighted in blue are also actions that should be taken. Click Next to continue."
+    transcript: "Here is some feedback on your response. The actions highlighted in blue are also actions that should be taken."
     // transcript: "Here is some feedback on your response.  The actions highlighted in blue are also actions that should be taken. You have also selected one or more options that are not actions that should be taken. Click Next to continue."
 }];
 

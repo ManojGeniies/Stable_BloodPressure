@@ -79,11 +79,11 @@ var updateContentArray = [
 
 ];
 
-var updateContentArray0 = [{ time: "0.0", carry: "", event: "", show: "", hide: "", transcript: "Here is some feedback on your response. Baby Girl Collins is severely hypothermic. Review the hypothermic ranges on the right. Click Next to continue." }
+var updateContentArray0 = [{ time: "0.0", carry: "", event: "", show: "", hide: "", transcript: "Here is some feedback on your response. Baby Girl Collins is severely hypothermic. Review the hypothermic ranges on the right." }
 
 ];
 
-var updateContentArray1 = [{ time: "0.0", carry: "", event: "", show: "", hide: "", transcript: "That’s correct. Baby Girl Collins is severely hypothermic. Click Next to continue." }
+var updateContentArray1 = [{ time: "0.0", carry: "", event: "", show: "", hide: "", transcript: "That’s correct. Baby Girl Collins is severely hypothermic. " }
 
 ];
 

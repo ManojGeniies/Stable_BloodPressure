@@ -2742,6 +2742,7 @@ return_case_button_vital:hover {
 #imgPopup0 {
     background: url('../../../pages/images/Topic01/T01P22/01_lg.png') no-repeat;
     background-size: contain;
+    border-radius: 25px;
 }
 
 .closepopup,
