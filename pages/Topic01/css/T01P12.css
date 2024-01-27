@@ -119,8 +119,8 @@ span {
     position: absolute;
     width: 235px;
     height: 25px;
-    top: 75px;
-    left: 185px;
+    /* top: 75px;
+    left: 185px; */
     font-size: 14px;
     color: #4D667B;
     font-family: OpenSansRegular;

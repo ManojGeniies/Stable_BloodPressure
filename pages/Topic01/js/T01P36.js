@@ -28,7 +28,7 @@ var popupSectionArray0 = [{
 	event: "",
 	show: "",
 	hide: "",
-	transcript: "Here is some feedback on your response: The infant is most likely experiencing hypovolemic shock secondary to maternal hemorrhage.<br>Click Next to continue."
+	transcript: "Here is some feedback on your response: The infant is most likely experiencing hypovolemic shock secondary to maternal hemorrhage."
 }, {
 	time: "0",
 	carry: "",
@@ -52,7 +52,7 @@ var popupSectionArray1 = [
 		event: "",
 		show: "",
 		hide: "",
-		transcript: "That is correct. The infant is most likely experiencing hypovolemic shock secondary to maternal hemorrhage.<br>Click Next to continue."
+		transcript: "That is correct. The infant is most likely experiencing hypovolemic shock secondary to maternal hemorrhage."
 	}, {
 		time: "0",
 		carry: "",

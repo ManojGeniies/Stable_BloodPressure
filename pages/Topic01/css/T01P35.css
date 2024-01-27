@@ -198,13 +198,14 @@ display :none;
     border-radius: 25px;
 }
 .clsSubImageSecd {
-    width: 178px;
+    margin-right: 27px !important;
+    width: 153px;
     height: 215px;
     top: 20px;
     left: 0px;
 }
 .clsSubImageSecd .subFirstImage {
-    width: 198px;
+    width: 148px;
     height: 214px;
 }
 .imgSubCnt_02,
@@ -281,7 +282,7 @@ display :none;
     text-align: center;
 }
 .desc.four{
-    bottom: -40px;
+    bottom: -55px;
 }
 .alertIconBox {
     position: absolute;
@@ -290,8 +291,8 @@ display :none;
     top: 320px;
     height: 57px;
     background: #FFFFFF;
-    border: 2px solid #B80F0A;
-    border-radius: 5px;
+    border: 1px solid #F26C5B;
+    border-radius: 25px;
     opacity:0;
 }
 #clsSubImage0{
@@ -372,22 +373,27 @@ display :none;
 }
 #clsSub9 {
     background: url('../../../pages/images/Topic01/T01P35/09.png') no-repeat;
+    background-size: cover;
 }
 #clsSub10 {
     background: url('../../../pages/images/Topic01/T01P35/10.png') no-repeat;
+    background-size: cover;
 }
 #clsSub11 {
     background: url('../../../pages/images/Topic01/T01P35/11.png') no-repeat;
+    background-size: cover;
 }
 
 #clsSub12 {
     background: url('../../../pages/images/Topic01/T01P35/12.png') no-repeat;
+    background-size: cover;
 }
 #clsSub13{
     background: url('../../../pages/images/Topic01/T01P35/13.png') no-repeat;
+    background-size: cover;
     width: 227px;
     height: 246px;
-    background-size: 100% 100%;
+    
 }
 #clsSub14 {
     background: url('../../../pages/images/Topic01/T01P35/14.png') no-repeat;
@@ -512,6 +518,7 @@ section {
     /* padding-top: 15px; */
 }
 ul.bullet {
+    padding-top: 10px;
     width: 617px;
     /* padding: 2px; */
     font-size: 14px;
@@ -827,9 +834,9 @@ width: 195px;
     line-height: 42px;
 }
 
-.modalTxtImg{
+/* .modalTxtImg{
     border-radius:5px 5px 0 0;
-}
+} */
 /* .clsPopup .modalContent{
     box-shadow: none !important;
     background: transparent !important;
@@ -839,148 +846,182 @@ width: 195px;
     width: 384px;
     height: 252px;
     top: 115px;
+    border-radius:25px
 }
 #imgPopupCnt2{
     width: 330px;
     height: 247px;
     top: 115px;
+    border-radius:25px
 }
 #imgPopupCnt3{
     width: 288px;
     height: 438px;
     top: 24px;
+    border-radius:25px
 }
 #imgPopupCnt4{
     width: 513px;
     height: 383px;
     top: 50px;
+    border-radius:25px
 }
 #imgPopupCnt5{
     width: 508px;
     height: 380px;
     top: 52px;
+    border-radius:25px
 }
 
 #imgPopupCnt6{
     width: 512px;
     height: 385px;
     top: 48px;
+    border-radius:25px
 }
 #imgPopupCnt7{
     width: 263px;
-    height: 435px;
+    height: 387px;
     top: 25px;
+    border-radius:25px
 }
 #imgPopupCnt8{
     width: 375px;
-    height: 432px;
+    height: 384px;
     top: 27px;
+    border-radius:25px
 }
 #imgPopupCnt9{
     width: 386px;
     height: 385px;
     top:51px;
+    border-radius:25px
 }
 #imgPopupCnt10{
     width: 386px;
     height: 385px;
     top:51px;
+    border-radius:25px
 }
 #imgPopupCnt11{
     width: 390px;
     height: 387px;
     top:51px;
+    border-radius:25px
 }
 #imgPopupCnt12{
     width: 389px;
     height: 385px;
     top:51px;
+    border-radius:25px
 }
 #imgPopupCnt13 {
     width: 351px;
     height: 182px;
     top: 138px;
     padding: 15px;
+    border-radius:25px
 }
 .heading {
     margin-left: 30px;
 }
 #imgPopup1{
     background: url('../../../pages/images/Topic01/T01P35/01_lg.png') no-repeat;
-    background-size: contain;
+    background-size: cover;
+    border-radius: 25px;
+    height: 250px;
+
 }
 #imgPopup2{
     background: url('../../../pages/images/Topic01/T01P35/02_lg.png') no-repeat;
-    background-size: contain;
+    background-size: cover;
+    border-radius: 25px;
     width: 331px;
+    height: 250px;
 }
 #imgPopup3{
     background: url('../../../pages/images/Topic01/T01P35/03_lg.png') no-repeat;
-    background-size: contain;
+    background-size: cover;
+    border-radius: 25px;
+    height: 438px;
 }
 #imgPopup4{
     background: url('../../../pages/images/Topic01/T01P35/04_lg.png') no-repeat;
-    background-size: contain;
-    border-radius: 5px;
+    background-size: cover;
+    border-radius: 25px;
+    height: 384px;
 }
 #imgPopup5{
     background: url('../../../pages/images/Topic01/T01P35/05_lg.png') no-repeat;
     background-size: contain;
     width: 509px;
+    border-radius: 25px;
 }
 #imgPopup6{
     background: url('../../../pages/images/Topic01/T01P35/06_lg.png') no-repeat;
     background-size: contain;
+    border-radius: 25px;
 }
 
 #imgPopup7{
     background: url('../../../pages/images/Topic01/T01P35/07_lg.png') no-repeat;
     background-size: contain;
+    border-radius: 25px;
 }
 #imgPopup8{
     background: url('../../../pages/images/Topic01/T01P35/08_lg.png') no-repeat;
     background-size: contain;
     height: 383px;
+    border-radius: 25px;
     
 }
 #imgPopup9{
     background: url('../../../pages/images/Topic01/T01P35/09_lg.png') no-repeat;
     background-size: contain;
+    border-radius: 25px;
 }
 #imgPopup10{
     background: url('../../../pages/images/Topic01/T01P35/10_lg.png') no-repeat;
     background-size: contain;
+    border-radius: 25px;
 }
 #imgPopup11{
     background: url('../../../pages/images/Topic01/T01P35/11_lg.png') no-repeat;
     background-size: contain;
+    border-radius: 25px;
 }
 
 #imgPopup12{
     background: url('../../../pages/images/Topic01/T01P35/12_lg.png') no-repeat;
     background-size: contain;
+    border-radius: 25px;
 }
 #imgPopup13{
     background: url('../../../pages/images/Topic01/T01P35/13_lg.png') no-repeat;
     background-size: contain;
+    border-radius: 25px;
 }
 #imgPopupCnt14{
-    top: 50px;
+    top: 38px;
     width: 512px;
     height: 422px;
+    border-radius: 25px;
 }
 #imgPopupCnt15{
     top: 50px;
     width: 388px;
     height: 383px;
+    border-radius: 25px;
 }
 #imgPopup14{
     background: url('../../../pages/images/Topic01/T01P35/14_lg.png') no-repeat;
     background-size: contain;
+    border-radius: 25px;
 }
 #imgPopup15{
     background: url('../../../pages/images/Topic01/T01P35/15_lg.png') no-repeat;
     background-size: contain;
+    border-radius: 25px;
 }
 #imgPopupCnt14 .closepopup{
     bottom:40px;
@@ -1000,9 +1041,9 @@ width: 195px;
     position: absolute;
     width: 42px;
     height: 40px;
-    top:6px;
+    top:8px;
     left: 20px;
-    background: url(../../../media/images/new/warning.png);
+    background: url(../../images/Topic01/T01P35/caution.png);
     background-size: cover;
 }
 
