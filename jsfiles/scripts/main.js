@@ -2437,8 +2437,7 @@ function fnLoadPage(lModNum, lLessNum, lTopNum, lPageNum) {
     closeHelpBtnFunc();
 	$("#id_transcriptBox #transcripttext").show();
     fnRemoveDuplicateValue();
-    //
-
+    setCurrentAudio();
 
     //console.log("fnLoadPage")
 
@@ -7300,3 +7299,75 @@ function gnGetPage17() {
     fnJumpToPageByID(lPageId);
 
 }
+
+// Speed Functionality
+
+$(document).ready(function () {
+    $('#clsSpeedBtn').on('click', function (e) {
+      e.stopPropagation()
+      var speedVolumne = $('.speedVolumne')
+      var displayProperty = speedVolumne.css('display')
+      speedVolumne.css('display', displayProperty === 'block' ? 'none' : 'block')
+    })
+})
+
+function audioabu(speedlimit) {
+    adjustAudioSpeed(speedlimit)
+    masterTimeline.timeScale(document.getElementById('audioplayer').playbackRate)
+}
+
+function adjustAudioSpeed(speedlimit) {
+    // console.log("starting speed - " + document.getElementById("audioplayer").playbackRate);
+    var audio = document.getElementById('audioplayer')
+    if (speedlimit === 1) {
+      audio.playbackRate = 1
+      localStorage.setItem('speed', 1)
+      $('#clsSpeedBtn')
+        .removeClass('clsSpeedBtn1')
+        .removeClass('clsSpeedBtn2')
+        .addClass('clsSpeedBtn')
+      $('.speedVolumne ul li .speed_1').addClass('active')
+      $('.speedVolumne ul li .speed_1_5').removeClass('active')
+      $('.speedVolumne ul li .speed_2').removeClass('active')
+    } else if (speedlimit === 1.5) {
+      audio.playbackRate = 1.5
+      localStorage.setItem('speed', 1.5)
+      $('#clsSpeedBtn')
+        .removeClass('clsSpeedBtn')
+        .removeClass('clsSpeedBtn2')
+        .addClass('clsSpeedBtn1')
+      $('.speedVolumne ul li .speed_1').removeClass('active')
+      $('.speedVolumne ul li .speed_1_5').addClass('active')
+      $('.speedVolumne ul li .speed_2').removeClass('active')
+    } else if (speedlimit === 2) {
+      audio.playbackRate = 2.0
+      localStorage.setItem('speed', 2.0)
+      $('#clsSpeedBtn')
+        .removeClass('clsSpeedBtn1')
+        .removeClass('clsSpeedBtn1')
+        .addClass('clsSpeedBtn2')
+      $('.speedVolumne ul li .speed_1').removeClass('active')
+      $('.speedVolumne ul li .speed_1_5').removeClass('active')
+      $('.speedVolumne ul li .speed_2').addClass('active')
+    } else {
+      audio.playbackRate = 1
+      localStorage.setItem('speed', 1)
+    }
+    $('.speedVolumne').css('display', 'none')
+    // console.log("current speed - " + document.getElementById("audioplayer").playbackRate);
+}
+
+function setCurrentAudio() {
+    if (!localStorage.getItem('speed')) {
+      document.getElementById('audioplayer').playbackRate = 1
+      // console.log("setCurrentAudio - if = " +document.getElementById("audioplayer").playbackRate);
+    } else {
+      setTimeout(function () {
+        document.getElementById(
+          'audioplayer',
+        ).playbackRate = localStorage.getItem('speed')
+        masterTimeline.timeScale(localStorage.getItem('speed'))
+        // console.log("setCurrentAudio - else = " + localStorage.getItem("speed") + " executed");
+      }, 100)
+    }
+  }

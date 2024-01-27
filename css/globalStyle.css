@@ -595,17 +595,17 @@ NOTE: if you are using z-index on the same level in the DOM -
     #Popup z-index needs to have the highest value.
 */
 .MenuPopup{
-	position: absolute;
-    height: 544px;
+    position: absolute;
+    height: 533px;
     width: 1085px;
     top: 61px;
     left: 0px;
-	/* background: url(../media/images/player/menu/Menu_cover_sheen.png) no-repeat; */
-	background-size: 100% 100%;
-	background-color: rgba(255,255,255,0.7);
-	opacity: 1;
-	font-size: 15px;
-	/*z-index: 9999;*/
+     /* background: url(../media/images/player/menu/Menu_cover_sheen.png) no-repeat;  */
+    background-size: 100% 100%;
+    background-color: rgba(255,255,255,0.7);
+    opacity: 1;
+    font-size: 15px;
+     /* z-index: 9999;  */
 }
 
 /*
@@ -1754,21 +1754,19 @@ ul.alertText li:before {
 .modal{
     position: absolute;
     left: 0px;
-    top: 39px;
+    top: 39px !important;
     width: 1080px;
     height: 475px;
     background: rgba(255,255,255,0.3);
     transform: scale(1.1);
     transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
     z-index: 999999;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
+    border-radius: 25px;
     display: none;
 }
 .titleText {
     top: 27px !important;
+    text-transform: uppercase !important;
 }
 
 .modal.height_100{
@@ -1785,7 +1783,7 @@ ul.alertText li:before {
     width: 832px;
     height: 420px;
     /* background: rgba(91,91,91, 1); */
-    background: #ffffff !important;
+    /* background: #ffffff !important; */
     transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
     z-index: 1000;
     disable: none;
@@ -1834,14 +1832,15 @@ ul.alertText li:before {
     height: 385px;
     background-size: cover;
     z-index: 100;
-    border-top-left-radius: 5px;
+    border-radius: 25px !important;
+    /* border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
     -webkit-border-top-left-radius: 5px;
 	-webkit-border-top-right-radius: 5px;
 	 -moz-border-top-left-radius: 5px;
 	 -moz-border-top-right-radius: 5px;
 	 -ms-border-top-left-radius: 5px;
-	-ms-border-top-right-radius: 5px;
+	-ms-border-top-right-radius: 5px; */
 
 }
 .modalTextBottom {

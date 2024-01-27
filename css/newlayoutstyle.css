@@ -12,14 +12,11 @@ input, textarea {
 #id_transcriptBox {
     position: absolute;
     height: 61px;
-    width: 580px;
+    width: 593px;
     left: 253px;
     top: 596px;
     font-family: OpenSansRegular;
     background-color: #FFFFFF;
-    /* -webkit-box-shadow: 0px 1px 4px -1px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 1px 4px -1px rgba(0,0,0,0.75);
-	box-shadow: 0px 1px 4px -1px rgba(0,0,0,0.75);	*/
     z-index: 99999;
     overflow: hidden;
     display: block !important;
@@ -51,9 +48,9 @@ input, textarea {
 
 #transcripttext {
     position: absolute;
-    width: 97.9%;
+    width: 100.9%;
     top: 0px;
-    left: 4PX;
+    left: 2px;
     height: 91%;
     right: 0px;
     text-align: left;
@@ -1487,4 +1484,53 @@ ul.list_1 li:before {
     font-style: italic;
     font-size: 16px !important;
     font-family: OpenSansRegular;
+}
+
+
+/* Speed Button */
+
+#speedVolumne {
+    border-bottom: 0px solid;
+    position: absolute;
+    width: 66px;
+    bottom: 70px;
+    border-radius: 0px;
+    background-color: #fff;
+    z-index: 9999999;
+    border: 1px solid #05222e;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.speedVolumne {
+    display: none;
+}
+
+#speedVolumne ul {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+#speedVolumne ul li {
+    width: 100%;
+    margin-top: 0px;
+}
+
+#speedVolumne ul li a {
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "OpenSansSemiBold";
+    line-height: 27px;
+}
+
+#speedVolumne ul li a span {
+    background: #05222e;
+    width: 80%;
+    display: block;
+    height: 1px;
+    margin: 0px 5px;
 }

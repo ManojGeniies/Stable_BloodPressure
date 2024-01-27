@@ -782,10 +782,24 @@
 
                     <div id="footerbuttons">
 
-                        <div class="ClsToolbtn"  title="Resources"><span
-                                class="ClsToolbtnIcon cIcons"></span>
-                                <!-- <span class="tooltip cIcons">Resources</span> -->
-                            </div>
+                        <!-- Speed button -->
+
+                        <div class="ClsToolbtn clsSpeedBtn" id="clsSpeedBtn"  title="Speed">
+                            <span class="ClsToolbtnIcon cIcons"></span>
+                        </div>
+
+                        <!-- <div id="clsSpeedBtn" class="clsSpeedBtn" title="Speed">&nbsp; -->
+
+                        <div class="speedVolumne" id="speedVolumne" title="Speed" unselectable="on">
+                            <ul>
+                                <li><a class="speed-limit speed_2" data-speed="2" onclick="audioabu(2)">2x
+                                        <span>&nbsp;</span></a></li>
+                                <li><a class="speed-limit speed_1_5" data-speed="1.5" onclick="audioabu(1.5)">1.5x
+                                        <span>&nbsp;</span></a></li>
+                                <li><a class="speed-limit active speed_1" data-speed="1" onclick="audioabu(1)">1x</a></li>
+                            </ul>
+                        </div>
+
                         <div id="clsPlayPauseBtn" class="clsPlay" title="Play/Pause">
                             <span class="clsPlayPauseBtnIcon cIcons">&nbsp;</span>
                             <!-- <span class="tooltip cIcons">PLAY</span> -->
