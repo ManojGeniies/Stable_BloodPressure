@@ -564,7 +564,7 @@ span.clsPlayPauseBtnIcon {
 }
 
 .clsDisNxtBtn span.clsNxtBtnIcon {
-    background: url("../media/images/player/common/nextclick.png") no-repeat;
+    background: url("../media/images/player/common/next.png") no-repeat;
     opacity: 0.5;
     cursor: default;
     background-position: 0px 0;
@@ -1500,6 +1500,11 @@ ul.list_1 li:before {
     border: 1px solid #05222e;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+.speed-limit.active {
+    background-color: #05222e;
+    color: #fff;
 }
 
 .speedVolumne {
