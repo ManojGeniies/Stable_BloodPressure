@@ -433,7 +433,7 @@ span {
     height: 57px;
     background: #FFFFFF;
     border: 1px solid #F26C5B;
-    border-radius: 5px;
+    border-radius: 25px;
     opacity: 1;
 }
 .clsText {
@@ -452,7 +452,8 @@ span {
     height: 34px;
     top: 12px;
     left: 10px;
-    background: url(../../../pages/images/common/caution.png);
+    background: url(../../../pages/images/common/warning.png);
+    /* background: url(../../images/Topic01/T01P12/caution_symbol.png); */
     display: none;
 }
 
