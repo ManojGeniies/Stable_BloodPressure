@@ -11,10 +11,10 @@ input, textarea {
 
 #id_transcriptBox {
     position: absolute;
-    height: 61px;
+    height: 65px;
     width: 593px;
     left: 253px;
-    top: 596px;
+    top: 594px;
     font-family: OpenSansRegular;
     background-color: #FFFFFF;
     z-index: 99999;
@@ -514,7 +514,8 @@ span.clsPlayPauseBtnIcon {
     background: url("../media/images/player/common/back.png") no-repeat;
     background-position: 0px 0;
     width: 64px;
-    height: 64px;
+    height: 66px;
+    top:-1px;
     transition: all 0.2s;
     z-index: 5;
     /* border-radius: 50%; */
@@ -585,10 +586,10 @@ span.clsPlayPauseBtnIcon {
     /* background-position: -30px 0; */
     cursor: pointer;
     position: absolute;
-    top: 0px;
+    top: -1px;
     /* left: 9px; */
     width: 64px;
-    height: 63px;
+    height: 66px;
     /* transition: all 0.2s; */
     /* border-radius: 50%; */
     display: block;
@@ -690,6 +691,7 @@ span.clsPlayPauseBtnIcon {
     LEFT: 8PX;
     border: 2px solid #F26C5B;
     border-radius: 15px;
+    z-index:5;
 }
 
 #clsMnuBtn {
