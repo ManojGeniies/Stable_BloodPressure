@@ -3124,7 +3124,7 @@ return_case_button_vital:hover {
 .leftBottom {
     position: relative;
     height: 252px;
-    top:215px;
+    /* top:215px; */
 }
 
 .leftBottom h3 {
@@ -3319,7 +3319,7 @@ return_case_button_vital:hover {
 }
 
 .cSubmitBtn {
-    background: #ACACAC;
+    background: #3A5569;
     font-family: OpenSansRegular;
     font-size: 18px;
     padding: 5px 15px;
@@ -3335,19 +3335,19 @@ return_case_button_vital:hover {
 }
 
 .cSubmitBtn.enable:hover {
-    border: 2px solid #707070;
+    border: 2px solid #3A5569;
     background: transparent;
     color: #5B5B5B;
 }
 
 .cSubmitBtn.active {
-    background: #5B5B5B;
+    background: #3A5569;
     color: #ffffff;
     cursor: pointer;
 }
 
 .cSubmitBtn.active:hover {
-    border: 2px solid #707070;
+    border: 2px solid #3A5569;
     background: #ffffff;
     color: #000000;
 }
@@ -3919,7 +3919,7 @@ width: 592px;
     width: 86px;
     height: 77px;
     position: absolute;
-    top: 126px;
+    top: 113px;
     background-size: 88px;
     left: 425px;
 }
@@ -3977,7 +3977,7 @@ width: 592px;
 .box.disabled, .box.disabled:hover{
     background: #ACACAC;
     cursor: default;
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 .box span{
     display: none;
@@ -3994,7 +3994,7 @@ width: 592px;
 }
 .abdomen-box{
     width: 146px;
-    top: 87px;
+    top: 60px;
     left: 488px;
 }
 .pulses-box{

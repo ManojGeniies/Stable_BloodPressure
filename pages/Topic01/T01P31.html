@@ -2668,23 +2668,23 @@
         
         .sectionContent {
             position: absolute;
-            top: 10px;
-            height: 522px;
-            width: 1073px;
-            left: 12px;
+            top: 20px;
+            height: 507px;
+            width: 1055px;
+            left: 13px;
             right: 15px;
         }
         
         .sectionLeft {
-            height: 100%;
+            height: 507px;
             width: 264px;
             background: #E0F6FB;
-            box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0);
+            /* box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0);
             -webkit-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0);
             -moz-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0);
             border-radius: 7px 0 0 0;
             -webkit-radius: 7px 0 0 0;
-            -moz-radius: 7px 0 0 0;
+            -moz-radius: 7px 0 0 0; */
             border-radius: 25px;
             border:1px solid #3A5569;
             z-index: 10;
@@ -2693,11 +2693,11 @@
         
         .sectionRight {
             width: 790px;
-    height: 507px;
-    top: 0px;
-    position: absolute;
-    left: 273px;
-        }
+            height: 507px;
+            top: 0px;
+            position: absolute;
+            left: 270px;
+                }
         
         .rightTop {
             height: 42px;
@@ -2785,7 +2785,7 @@
         
         .sectionContentArea {
             background: #fff;
-    height: 523px;
+    height: 511px;
     border-top-right-radius: 5px;
     -webkit-border-top-right-radius: 5px;
     -moz-border-top-right-radius: 5px;
@@ -2871,11 +2871,11 @@
             padding: 0px;
             margin: 0px;
             position: relative;
-            top: 5px;
+            top: 12px;
             text-align: center;
             font-family: OpenSansSemiBold;
-            font-size: 20px;
-            height: 40px;
+            font-size: 18px;
+            height: 55px;
             color: #000000;
         }
         
@@ -2892,7 +2892,7 @@
             font-family: OpenSansSemiBold;
             padding-left: 20px;
             padding-bottom: 5px;
-            font-size: 16px;
+            font-size: 14px;
             color: #000000;
         }
         
@@ -2947,7 +2947,8 @@
         }
         .leftBottomCnt{
             position: absolute;
-    top: 205px;
+            top: 202px;
+            margin-left: 12px;
         }
         .marginTop {
             top: 40px;
@@ -3083,7 +3084,7 @@
         
         .bottomTxt {
             position: absolute;
-            bottom: -10px;
+            bottom: 0px;
     right: 20px;
         }
         /* ul.non-bullet, ol.number{
@@ -3091,7 +3092,7 @@
         } */
         
         .cSubmitBtn {
-            background: #ACACAC;
+            background: #3A5569;
             font-family: OpenSansRegular;
             font-size: 18px;
             padding: 5px 15px;
@@ -3107,19 +3108,19 @@
         }
         
         .cSubmitBtn.enable:hover {
-            border: 2px solid #707070;
+            border: 2px solid #3A5569;
             background: transparent;
-            color: #5B5B5B;
+            color: #3A5569;
         }
         
         .cSubmitBtn.active {
-            background: #5B5B5B;
+            background: #3A5569;
             color: #ffffff;
             cursor: pointer;
         }
         
         .cSubmitBtn.active:hover {
-            border: 2px solid #707070;
+            border: 2px solid #3A5569;
             background: #ffffff;
             color: #000000;
         }
@@ -3572,7 +3573,7 @@
     width: auto;
     border-bottom: 0px solid;
     height: 31px;
-    top: 343px;
+    top: 340px;
     left: -21px;
     width: 350px;
     padding-left: 22px;
@@ -3594,7 +3595,7 @@
     width: auto;
     border-bottom: 0px solid;
     height: 31px;
-    top: 389px;
+    top: 382px;
     left: -21px;
     width:350px;
     padding-left: 22px;
@@ -3887,10 +3888,10 @@ ul.bullet li, ul.non-bullet li{
     height: 160px;
 }
 .leftCnt {
-    width: 395px;
+    width: 403px;
     position: absolute;
-    left: 10px;
-    top: 80px;
+    left: 8px;
+    top: 75px;
     padding-right: 15px;
 }
 
@@ -3898,7 +3899,7 @@ ul.bullet li, ul.non-bullet li{
     width:367px;
     position: absolute;
     right: 10px;
-    top:80px;
+    top:75px;
     height: 423px;
 }
 .rightCnt .option {
@@ -3906,13 +3907,20 @@ ul.bullet li, ul.non-bullet li{
 }
 
 .rightCnt .option {
-    padding: 5px;
+    padding: 4px;
     border: 1px solid transparent;
     position: relative;
     clear: both;
     width: auto;
     float: left;
+    font-size:14px;
     margin-bottom: -2px;
+}
+.non-bullet{
+    font-size: 14px !important;
+}
+.on{
+    font-size: 16px !important;  
 }
     </style>
     <script>
@@ -4265,8 +4273,8 @@ ul.bullet li, ul.non-bullet li{
 
                                     </div>
                                     <div class="leftBottomCnt">
-                                        <div class="">Interpret the blood gas.</div>
-                                        <em style="color:#4D667B;font-size: 15px;display:block">Select the correct option and click the<br>Submit button.</em>
+                                        <div class="on">Interpret the blood gas.</div>
+                                        <em style="color:#4D667B;font-size: 16px;display:block">Select the correct option and click the<br>Submit button.</em>
                                         <div class='option crbm' curid="0" style="margin-top:5px;">
                                             <input type="radio" id="test1" name="radio-group">
                                             <label for="test1"> Uncompensated metabolic acidosis</label>

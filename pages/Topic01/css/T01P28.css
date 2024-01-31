@@ -3133,10 +3133,10 @@ return_case_button_vital:hover {
     top: 12px;
     text-align: center;
     font-family: OpenSansSemiBold;
-    font-size: 20px;
-    /* height: 55px; */
+    font-size: 18px;
+    height: 55px;
     color: #000000;
-    padding-bottom: 26px;
+    /* padding-bottom: 26px; */
 }
 
 .headingBlue {
@@ -3152,7 +3152,7 @@ return_case_button_vital:hover {
     font-family: OpenSansSemiBold;
     padding-left: 20px;
     padding-bottom: 10px;
-    font-size: 18px;
+    font-size: 14px;
     color: #000000;
 }
 
@@ -3913,7 +3913,7 @@ ul.bullet li, ul.non-bullet li{
     margin:0;
 }
 .leftCnt {
-    width:62%;
+    width:63%;
     position: absolute;
     left:10px;
     top:80px;
@@ -3929,4 +3929,11 @@ ul.bullet li, ul.non-bullet li{
 }
 .instruction {
     padding-left: 10px;
+    font-size: 16px;
+}
+.non-bullet{
+    font-size: 14px !important;
+}
+.bullet{
+    font-size: 14px !important;
 }

@@ -3107,26 +3107,16 @@ return_case_button_vital:hover {
 }
 
 .leftBottom h3 {
-    /* padding: 0px;
+    padding: 0px;
     margin: 0px;
     position: relative;
     top: 12px;
     text-align: center;
     font-family: OpenSansSemiBold;
-    font-size: 20px;
+    font-size: 18px;
     height: 55px;
     color: #000000;
-    padding-bottom: 26px; */
-    padding: 0px;
-    margin: 0px;
-    position: relative;
-    top: 6px;
-    text-align: center;
-    font-family: OpenSansSemiBold;
-    font-size: 20px;
-    height: 35px;
-    color: #000000;
-    /* padding-bottom: 15px;*/
+    /* padding-bottom: 26px; */
 }
 
 .headingBlue {
@@ -3180,7 +3170,7 @@ return_case_button_vital:hover {
     font-family: OpenSansSemiBold;
     padding-left: 15px;
     padding-bottom: 4px;
-    font-size: 12px;
+    font-size: 14px;
     color: #000000;
     line-height: normal;
     display: block;
