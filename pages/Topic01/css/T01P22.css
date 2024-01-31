@@ -2468,7 +2468,7 @@ return_case_button_vital:hover {
 
 .sectionContent {
     position: absolute;
-    top: 100px;
+    top: 67px;
     height: 465px;
     width: 1055px;
     left: 10px;
@@ -2476,7 +2476,7 @@ return_case_button_vital:hover {
 }
 
 .sectionLeft {
-    height: 70%;
+    height: 425px;
     width: 264px;
     background: #E0F6FB;
     box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0);
@@ -2774,4 +2774,8 @@ return_case_button_vital:hover {
 }
 ul.non-bullet {
     margin-top: 10px;
+    font-size: 14px;
+}
+.bullet{
+    font-size: 14px !important ; 
 }

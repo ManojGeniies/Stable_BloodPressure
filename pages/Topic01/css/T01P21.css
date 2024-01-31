@@ -71,8 +71,8 @@
 .clsText {
     position: absolute;
     width: 74%;
-    left: 25px;
-    top: 10px;
+    left: 21px;
+    top: 7px;
     font-size: 16px;
     font-family: OpenSansRegular;
     font-style: initial;
@@ -137,7 +137,7 @@
     display: none;
     width: 390px;
     top: 95px;
-    height: 306px;
+    height: 284px;
     right: 0;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -594,6 +594,7 @@ overflow:hidden;
 }
 ul.bullet {
 margin-top: -10px;
+margin-left: -20px ;
 }
 .showlist1,
 .showlist2,

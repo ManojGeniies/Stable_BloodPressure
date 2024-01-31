@@ -89,6 +89,7 @@
     font-family: OpenSansRegular;
     font-style: initial;
     line-height: 17px;
+    padding: 10px 0px 0px 15px 
 }
 
 .boxInst {
@@ -631,6 +632,8 @@ ul.bullet {
     height: 313px;
     background: #fff; */
     margin-top: 0;
+    margin-left: -12px;
+    font-size: 14px;
 }
 
 .showlist1,
@@ -671,4 +674,7 @@ ul.bullet li ul li:before {
 
 #thrombocytopenia {
     width: 455px;
+}
+.showlist1{
+    font-size: 16px;
 }

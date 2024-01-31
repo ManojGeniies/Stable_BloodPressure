@@ -3124,6 +3124,7 @@ return_case_button_vital:hover {
 .leftBottom {
     position: relative;
     height: 252px;
+    top:215px;
 }
 
 .leftBottom h3 {
@@ -3133,10 +3134,10 @@ return_case_button_vital:hover {
     top: 12px;
     text-align: center;
     font-family: OpenSansSemiBold;
-    font-size: 20px;
-    /* height: 55px; */
+    font-size: 18sectiontxtpx;
+    height: 55px;
     color: #000000;
-    padding-bottom: 26px;
+    /* padding-bottom: 26px; */
 }
 
 .headingBlue {
@@ -3152,7 +3153,7 @@ return_case_button_vital:hover {
     font-family: OpenSansSemiBold;
     padding-left: 20px;
     padding-bottom: 10px;
-    font-size: 18px;
+    font-size: 14px;
     color: #000000;
 }
 
@@ -3919,6 +3920,7 @@ width: 592px;
     height: 77px;
     position: absolute;
     top: 126px;
+    background-size: 88px;
     left: 425px;
 }
 .pulse-arrow{
@@ -3960,11 +3962,11 @@ width: 592px;
     border-radius: 25px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
-    font-size: 11px;
+    font-size: 14px;
     color: #000000;
     background: #ACACAC;
     line-height: 15px;
-    padding: 8px;
+    padding: 10px;
     position: absolute;
     cursor: pointer;
 }
@@ -4013,7 +4015,7 @@ width: 592px;
 .skin-box{
     width: 128px;
     top: 149px;
-    left: 619px;
+    left: 622px;
 }
 
 .correctAnswer span{
