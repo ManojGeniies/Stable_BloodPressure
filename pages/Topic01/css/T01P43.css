@@ -748,7 +748,7 @@ width: 195px;
 .viewedClick{
     background: #acacac url(../../images/common/chkMark.png) no-repeat;
     background-position:4% center;
-    color: #FFFFFF;
+    color: #000000;
 }
 /* .clsActive:after, .clsActive:after:before {
     border-top-color: #3A5569;
@@ -1200,7 +1200,7 @@ width: 195px;
     left: 2px;
     background-position: left;
     height: 40px;
-    background: #FFFFFF;
+    /* background: #FFFFFF; */
     border-radius: 6px;
     width: 960px;
    /* -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
@@ -1215,9 +1215,9 @@ width: 195px;
 .clsText {
     position: relative;
     top: 8px;
-    left: 0px;
+    /* left: 0px; */
     width: 100%;
-    text-align: left;
+    text-align: center;
     font-family: OpenSansRegular;
     font-size: 16px;
     opacity: 1;
@@ -1525,6 +1525,7 @@ ul.bullet li ul li:before {
 {
     display:none;
     opacity: 0;
+    font-size: 14px;
 }
 .showlist25, .showlist26{
     width: 460px;
@@ -1757,6 +1758,7 @@ ul.bullet li ul li:before {
     position: absolute;
     top: 20px;
     height: 315px;
+    background-color: white;
 }
 .secondBox{
     width: 300px;
@@ -1764,6 +1766,7 @@ ul.bullet li ul li:before {
     left: 410px;
     height: 315px;
     top: 20px;
+    background-color: white;
 }
 .boxTitle{
     border-bottom: 2px solid #3A5569;
@@ -1772,6 +1775,7 @@ ul.bullet li ul li:before {
     text-align: center;
     display: none;
     opacity: 0;
+    font-size: 16px;
 }
 .firstBox ul.bullet, .secondBox ul.bullet{
     margin: 0px;
