@@ -284,6 +284,7 @@
             width: 70px;
             height: 68px;
             top: 35px;
+            background-size: cover;
             left: 20px;
             background: url(../../../pages/images/Topic01/T01P13/caution.png);
          
@@ -1008,6 +1009,12 @@ ul.bullet {
     position: relative;
     margin-bottom: 10px;
 }
+.showlist2,
+.showlist3,
+.showlist4
+{
+    font-size: 14px;
+}
 .showlist6 {
     position: absolute;
     width: 100%;
@@ -1059,11 +1066,12 @@ ul.bullet {
 .headingBox{
     float: left;
     width: 230px;
-    background: #4d667b;
+    background: #3A5569;
     height: 60px;
     font-family: OpenSansBold;
     color: #ffffff;
     text-align: center;
+    font-size: 16px;
     line-height: 55px;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -1072,6 +1080,7 @@ ul.bullet {
     float: left;
     width: 430px;
     height: 48px;
+    font-size: 14px;
     left: 0px;
     position: relative;
     border-top-left-radius: 0px;
