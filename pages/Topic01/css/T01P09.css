@@ -496,3 +496,7 @@ section {
 ul.bullet li ul li:before {
     top: 8px;
 }
+
+ul.bullet{
+    font-size: 14px !important;
+}

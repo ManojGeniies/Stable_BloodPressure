@@ -118,7 +118,7 @@
     top: 30px;
     left: 25px;
     width: 255px;
-    font-size: 16px;
+    font-size: 14px;
     display: none;
 }
 
@@ -915,17 +915,17 @@ width: 195px;
 
 .warning {
     position: absolute;
-    width: 75px;
-    height: 74px;
-    top: 33px;
-    left: 15px;
+    width: 65px;
+    height: 65px;
+    /* top: 33px; */
+    left: 18px;
     background: url(../../../media/images/new/caution.png);
     background-size: cover;
 }
 
-#section1 .warning {
+/* #section1 .warning {
     top: 10px;
-}
+ }  */
 
 #section1 #idText48 {
     width: 540px;
@@ -988,7 +988,7 @@ width: 195px;
 .tabinst {
     position: absolute;
     left: 0px;
-    top: 6px;
+    top: 23px;
     color: #4D667B;
     text-align: center;
     width: 100%;
@@ -1034,13 +1034,13 @@ width: 195px;
 }
 
 .redLine.active {
-    color: #B80F0A;
-    border: 2px solid #B80F0A;
+    color: #F26C5B;
+    border: 2px solid #F26C5B;
     border-bottom: 0px solid;
 }
 
 .tabHeading.active {
-    color: #B80F0A;
+    color: #F26C5B;
 }
 
 .tabLine {
@@ -1072,7 +1072,7 @@ width: 195px;
     top: 20px;
     height: 230px;
     left: 295px;
-    font-size: 16px;
+    font-size: 14px;
     padding: 10px;
     display: none;
     opacity: 0;
@@ -1080,10 +1080,10 @@ width: 195px;
 
 #idPatch3 {
     width: 300px;
-    top: 55px;
-    height: 251px;
+    top: 85px;
+    height: 193px;
     left: 304px;
-    font-size: 16px;
+    font-size: 14px;
     padding: 10px;
     display: none;
     opacity: 0;
@@ -1095,7 +1095,7 @@ width: 195px;
     position: absolute;
     height: 144px;
     left: 664px;
-    font-size: 16px;
+    font-size: 14px;
     padding: 5px;
 }
 
@@ -1133,9 +1133,9 @@ width: 195px;
 
 #idPatchMain1 {
     padding: 6px 6px;
-    width: 340px;
+    width: 345px;
     top: 180px;
-    left: 666px;
+    left: 660px;
     height: 137px;
     display: none;
     opacity: 0;
@@ -1148,7 +1148,7 @@ width: 195px;
 }
 
 .box-brd.four {
-    height: 123px;
+    height: 110px;
     border-radius: 25px;
     border: 1px solid #F26C5B;
 }
@@ -1183,9 +1183,9 @@ width: 195px;
 #idText48 {
     position: absolute;
     width: 533px;
-    left: 100px;
+    left: 82px;
     top: 18px;
-    font-size: 16px;
+    font-size: 14px;
     font-family: OpenSansRegular;
     font-style: initial;
     line-height: 21px;
@@ -1241,7 +1241,7 @@ width: 195px;
     position: absolute;
     left: 10px;
     width: 280px;
-    font-size: 14px;
+    font-size: 16px;
     padding: 9px 10px;
     top: 10px;
     border-radius: 25px;
@@ -1427,4 +1427,17 @@ width: 195px;
 #clsSubImage8 .small_expand {
     bottom: 12px;
     right: 40px;
+}
+.txt1{
+    font-weight: 100;
+}
+
+.warning1 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 33px; 
+    left: 12px;
+    background: url(../../../media/images/new/caution.png);
+    background-size: cover;
 }

@@ -6,6 +6,7 @@ ul.alertText{
     width: 510px;
     background: #fff;
     height: 170px;
+    font-size: 14px !important;
     left: 394px;    
 }
 ul.alertText li {
@@ -427,32 +428,34 @@ span {
 
 .alertIconBox {
     position: absolute;
-    width: 518px;
-    left: 407px;
-    top: 180px;
-    height: 57px;
+    width: 534px;
+    left: 402px;
+    top: 165px;
+    height: 77px;
     background: #FFFFFF;
     border: 1px solid #F26C5B;
     border-radius: 25px;
     opacity: 1;
 }
 .clsText {
+
     position: absolute;
     width: 88%;
-    left: 58px;
-    top: 8px;
-    font-size: 16px;
+    left: 96px;
+    top: 14px;
+    font-size: 14px;
     font-family: OpenSansRegular;
     font-style: initial;
     line-height: 21px;
 }
 .warning {
     position: absolute;
-    width: 35px;
-    height: 34px;
-    top: 12px;
-    left: 10px;
-    background: url(../../../pages/images/common/warning.png);
+    width: 65px;
+    height: 65px;
+    top: 5px;
+    left: 15px;
+    background: url(../../../pages/images/common/warning.png) no-repeat;
+    background-size: cover;
     /* background: url(../../images/Topic01/T01P12/caution_symbol.png); */
     display: none;
 }
