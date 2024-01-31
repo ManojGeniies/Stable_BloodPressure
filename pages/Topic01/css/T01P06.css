@@ -99,10 +99,10 @@
 
 .sectionContent {
     position: absolute;
-    top: 65px;
+    top: 67px;
     height: 423px;
     width: 1073px;
-    left: 50px;
+    left: 10px;
     right: 15px
 }
 
@@ -119,7 +119,7 @@
 } */
 
 .sectionLeft {
-    height: 100%;
+    height: 425px;
     width: 265px;
     background: #E0F6FB;
     /* box-shadow: 0 1px 9px -4px rgba(0, 0, 0, 0.75);
@@ -129,16 +129,16 @@
 }
 
 .sectionRight {
-    width: 666px;
+    width: 790px;
     height: 465px;
     top: 0px;
     position: absolute;
-    left: 320px;
+    left: 275px;
 }
 
 .sectionContentArea {
     background: #fff;
-    height: 220px;
+    height: 215px;
     /* border-top-right-radius: 5px;
     -webkit-border-top-right-radius: 5px;
     -moz-border-top-right-radius: 5px;
@@ -246,7 +246,7 @@
     top: 12px;
     text-align: center;
     font-family: OpenSansSemiBold;
-    font-size: 20px;
+    font-size: 18px;
     height: 55px;
     color: #000000;
 }
@@ -280,7 +280,7 @@
     font-family: OpenSansSemiBold;
     padding-left: 20px;
     padding-bottom: 15px;
-    font-size: 16px;
+    font-size: 14px;
     color: #000000;
 }
 
@@ -476,4 +476,9 @@
 .modal .popover {
     bottom: 44px;
     right: 65px;
+}
+
+
+.bullet{
+    font-size: 14px !important; 
 }

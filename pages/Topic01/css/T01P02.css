@@ -155,9 +155,9 @@
 		    top: 69px;
 		    left:202px;
 		    width: 480px;
-		    text-align: center;
+		    /* text-align: center; */
 		    font-family: OpenSansSemiBold;
-		    font-size: 22px;
+		    font-size: 18px;
 		}
 		
 		#idText2 {
