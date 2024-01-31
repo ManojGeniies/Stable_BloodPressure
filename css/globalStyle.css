@@ -1310,17 +1310,17 @@ ul.bullet, ul.non-bullet{
     list-style: none;
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 14px;
 }
 ol.number{
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 ul.non-bullet, ol.number{
     padding-left: 10px;
-    margin: 5px 0;
+    margin: 5px -7px;
 }
 ul.sub.bullet{
     margin: 5px 25px !important;
@@ -1366,7 +1366,7 @@ ul.alertText {
     position: absolute;
     top: 19px;
     left: 413px;
-    font-size: 16px;
+    font-size: 14px;
     width: 478px;
     line-height: 27px;
 }
@@ -1782,15 +1782,16 @@ ul.alertText li:before {
     top: 36px;
     width: 832px;
     height: 420px;
+    border: 1px solid black;
     /* background: rgba(91,91,91, 1); */
     /* background: #ffffff !important; */
     transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
     z-index: 1000;
     disable: none;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
+    border-radius: 25px;
+    /* -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
+    -ms-border-radius: 5px; */
     margin: 0px auto;
 }
 .modalContent.small{
@@ -1850,7 +1851,7 @@ ul.alertText li:before {
     width: 100%;
     font-size: 16px;
     /* height: 40px; */
-    color:#B80F0A;
+    color:#05222e;
     font-family: OpenSansBold;
     background:transparent;
     text-align: center;
@@ -2407,7 +2408,7 @@ ul.transcript li {
     height: 87px;
 }
 .box-brd {
-    border: 1px solid #F6A87A;
+    border: 1px solid #F26C5B;
     border-radius: 25px;
     padding: 5px;
     height: 99px;

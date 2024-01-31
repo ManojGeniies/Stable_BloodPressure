@@ -11,7 +11,7 @@ input, textarea {
 
 #id_transcriptBox {
     position: absolute;
-    height: 65px;
+    height: 70px;
     width: 593px;
     left: 253px;
     top: 594px;
@@ -58,6 +58,7 @@ input, textarea {
     overflow-y: scroll;
     line-height: 17px;
     padding-right: 8px;
+    z-index:99999;
 }
 #transcripttextHelp {
     position: absolute;
@@ -141,7 +142,7 @@ span.tooltip {
 
 .ClsToolbtn {
     width: 68px;
-    height: 65px;
+    height: 66px;
     left: 0px;
     top: 1px;
     position: absolute;
@@ -150,7 +151,7 @@ span.tooltip {
 .ClsToolbtn span.ClsToolbtnIcon {
     position: absolute;
     width: 64px;
-    height: 64px;
+    height: 65px;
     top: 0px;
     /* left: 20px; */
     background: url("../media/images/player/common/speed.png") no-repeat;
@@ -296,7 +297,7 @@ span.tooltip {
     position: absolute;
     left: 63px;
     width: 64px;
-    height: 65px;
+    height: 66px;
     top: 1px;
     z-index: 999;
     transition: all 0.2s;
@@ -307,7 +308,7 @@ span.tooltip {
 span.clsPlayPauseBtnIcon {
     position: absolute;
     width: 64px;
-    height: 64px;
+    height: 65px;
     top: 0px;
     /* left: 20px; */
     z-index: 999;
@@ -325,7 +326,7 @@ span.clsPlayPauseBtnIcon {
     cursor: default;
     /* opacity:0.5; */
     width: 64px;
-    height: 64px;
+    height: 65px;
     background-size: cover;
 }
 
@@ -341,7 +342,7 @@ span.clsPlayPauseBtnIcon {
     cursor: pointer;
     background-position: 0px 0;
     width: 64px;
-    height: 64px;
+    height: 65px;
     background-size: cover;
 }
 
@@ -350,7 +351,7 @@ span.clsPlayPauseBtnIcon {
     opacity: 0.5;
     background-position: 0px 0;
     width: 64px;
-    height: 64px;
+    height: 65px;
     background-size: cover;
 }
 
@@ -363,7 +364,7 @@ span.clsPlayPauseBtnIcon {
 
 #clsReplay {
     width: 64px;
-    height: 65px;
+    height: 66px;
     top: 1px;
     left: 126px;
     position: absolute;
@@ -374,7 +375,7 @@ span.clsPlayPauseBtnIcon {
     position: absolute;
     cursor: pointer;
     width: 64px;
-    height: 64px;
+    height: 65px;
     /* left: 20px; */
     top: 0px;
     background-position: 0px 0;
@@ -417,7 +418,7 @@ span.clsPlayPauseBtnIcon {
     position: absolute;
     cursor: pointer;
     width: 64px;
-    height: 64px;
+    height: 65px;
     top: 0px;
     left: 0px;
     /* border-radius: 50%; */
@@ -440,7 +441,7 @@ span.clsPlayPauseBtnIcon {
     position: absolute;
     cursor: pointer;
     width: 64px;
-    height: 66px;
+    height: 65px;
     top: 0px;
     left: 0px;
     background: url("../media/images/player/common/unmute.png") no-repeat;
@@ -489,7 +490,7 @@ span.clsPlayPauseBtnIcon {
     top: 2px;
     right: 110px;
     width: 64px;
-    height: 64px;
+    height: 66px;
 }
 
 .clsDisBackBtn span.clsBackBtnIcon {
@@ -498,7 +499,7 @@ span.clsPlayPauseBtnIcon {
     cursor: default;
     background-position: 0px 0;
     width: 64px;
-    height: 62px;
+    height: 65px;
     transition: all 0.2s;
     z-index: 178;
     /* border-radius: 50%; */
@@ -514,7 +515,7 @@ span.clsPlayPauseBtnIcon {
     background: url("../media/images/player/common/back.png") no-repeat;
     background-position: 0px 0;
     width: 64px;
-    height: 66px;
+    height: 65.5px;
     top:-1px;
     transition: all 0.2s;
     z-index: 5;
@@ -545,7 +546,7 @@ span.clsPlayPauseBtnIcon {
     top: 2px;
     right: 0px;
     width: 64px;
-    height: 64px;
+    height: 66px;
 }
 
 .clsEnaNxtBtn span.clsNxtBtnIcon {
@@ -553,7 +554,7 @@ span.clsPlayPauseBtnIcon {
     background-position: 0px 0;
     cursor: pointer;
     width: 64px;
-    height: 64px;
+    height: 65px;
     /* transition: all 0.2s; */
     z-index: 5;
     /* border-radius: 50%; */
@@ -570,7 +571,7 @@ span.clsPlayPauseBtnIcon {
     cursor: default;
     background-position: 0px 0;
     width: 64px;
-    height: 64px;
+    height: 65px;
     transition: all 0.2s;
     /* border-radius: 50%; */
     z-index: 5;
@@ -679,14 +680,14 @@ span.clsPlayPauseBtnIcon {
 }
 
 .ui-slider-range {
-    border-radius: 10px;
+    border-radius: 0px 10px 10px 0px;
 }
 
 #id_sliderContainer a {
     outline: 0 !important;
     background-color: #F26C5B;
-    height: 11px;
-    width: 11px;
+    height: 12px;
+    width: 12px;
     top: -5px;
     LEFT: 8PX;
     border: 2px solid #F26C5B;
@@ -1101,7 +1102,7 @@ span.cIcons {
 #id_glosTitleText {
     position: relative;
     color: #fff;
-    font-size: 15px;
+    font-size: 16px;
     left: 9px;
     display: table-cell;
     top: 0px;
@@ -1164,7 +1165,7 @@ span.cIcons {
 } */
 
 .glossarytag {
-    color: #B80F0A;
+    color: #F26C5B;
     text-decoration: underline;
     cursor: pointer;
 }
@@ -1346,7 +1347,7 @@ span.instructions {
     top: 50px;
     width: 100%;
     height: 416px;
-    /* z-index: 999; */
+    /* z-index: 999; */bo
     border-radius: 0 0 10px 10px;
 }
 

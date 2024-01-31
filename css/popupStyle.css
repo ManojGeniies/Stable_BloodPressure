@@ -80,7 +80,7 @@
 }
 
 #id_glosTitleText {
-    color: #B80F0A !important;
+    color: #f26c5b !important;
     text-align: center;
     
 }
@@ -145,7 +145,7 @@
     content: "";
     width: 89%;
     height: 2px;
-    background: #B80F0A;
+    background: #f26c5b;
     position: absolute;
     margin: 0 auto;
     display: block;
@@ -231,7 +231,7 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     padding: 12px 18px 12px 18px;
-    font-size: 16px;
+    font-size: 14px;
     overflow: hidden;
     overflow-y: auto;
     max-height:135px;
@@ -268,14 +268,14 @@
 
 #pageClsResourcesPopup #pageReftitleText_id{
     position: relative !important;
-    color: #B80F0A !important;
+    color: #f26c5b !important;
     text-align: center !important;
     top: 15px !important;
     left: 0!important;
 }
 #pageClsResourcesPopup #pageReftitleText_id1 {
     position: relative !important;
-    color: #B80F0A !important;
+    color: #f26c5b !important;
     text-align: center !important;
     top: 15px !important;
     left: 0!important;
@@ -302,7 +302,7 @@
     width: 89%;
     height: 2px;
     position: absolute;
-    background-color: #B80F0A !important;
+    background-color: #f26c5b !important;
     top:48px;
     bottom: 0;
     right: 0;
