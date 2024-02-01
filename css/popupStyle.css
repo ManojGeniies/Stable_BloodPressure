@@ -104,7 +104,7 @@
 
 .medicineClass:hover,
 .medicineClass.active {
-    background: #B80F0A !important;
+    background: #F26C5B !important;
     color: #ffffff;
 }
 
@@ -160,7 +160,7 @@
 }
 
 #helptopbar:after {
-    width: 77%;
+    width: 93%;
 }
 
 .gloassaryContainer {
@@ -170,7 +170,7 @@
 
 .medicineClass:hover,
 .medicineClass.active {
-    background: #B80F0A !important;
+    background:  !important;
     color: #ffffff;
 }
 
@@ -179,7 +179,7 @@
 
 #id_ReftitleText {
     width: 100% !important;
-    color: #B80F0A !important;
+    color: #F26C5B !important;
     left: 0 !important;
     border-bottom: 0;
     padding-bottom: 15px;
@@ -218,7 +218,7 @@
 }
 
 #ReftitleText_id {
-    color: #B80F0A !important;
+    color: #F26C5B !important;
 }
 
 .clsVideoCnt {
@@ -302,7 +302,7 @@
     width: 89%;
     height: 2px;
     position: absolute;
-    background-color: #f26c5b !important;
+    background-color: #f26c5b !important; 
     top:48px;
     bottom: 0;
     right: 0;

@@ -254,7 +254,7 @@ video {
     max-width: 100%;
 }
 #_clickImg0pdfActivity:hover {
-    color: #B80F0A;
+    color: #f26c5b;
 }
 
 #pageClsResourcesPopupActivity {
@@ -297,7 +297,7 @@ video {
 }
 #pageClsResourcesPopupActivity #pageReftitleText_id, #pageReftitleText_id_p49, .pageReftitleRef {
     position: relative !important;
-    color: #B80F0A  !important;
+    color: #F26C5B !important;
     text-align: center !important;
     top: 13px !important;
     left: 0!important;

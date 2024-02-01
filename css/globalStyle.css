@@ -1833,7 +1833,7 @@ ul.alertText li:before {
     height: 385px;
     background-size: cover;
     z-index: 100;
-    border-radius: 25px !important;
+    border-radius: 25px 25px 0px 0px!important;
     /* border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
     -webkit-border-top-left-radius: 5px;
