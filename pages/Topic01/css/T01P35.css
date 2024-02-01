@@ -934,7 +934,7 @@ width: 195px;
     background-size: cover;
     border-radius: 25px;
     height: 252px;
-
+    width: 385px;
 }
 #imgPopup2{
     background: url('../../../pages/images/Topic01/T01P35/02_lg.png') no-repeat;
@@ -947,7 +947,7 @@ width: 195px;
     background: url('../../../pages/images/Topic01/T01P35/03_lg.png') no-repeat;
     background-size: cover;
     border-radius: 25px;
-    height: 438px;
+    height: 439px;
 }
 #imgPopup4{
     background: url('../../../pages/images/Topic01/T01P35/04_lg.png') no-repeat;
@@ -977,7 +977,7 @@ width: 195px;
     background-size: contain;
     height: 383px;
     border-radius: 25px;
-    
+    width: 383px;
 }
 #imgPopup9{
     background: url('../../../pages/images/Topic01/T01P35/09_lg.png') no-repeat;
@@ -1026,6 +1026,7 @@ width: 195px;
     background: url('../../../pages/images/Topic01/T01P35/15_lg.png') no-repeat;
     background-size: contain;
     border-radius: 25px;
+    width: 390px;
 }
 #imgPopupCnt14 .closepopup{
     bottom:40px;
