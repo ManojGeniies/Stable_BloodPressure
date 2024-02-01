@@ -77,7 +77,7 @@ function Glossary() {
 
     var __activeLetters = function() {
             $("#wordContainer td.alphabets").addClass("disableLetter");
-            $("#wordContainer td#All").removeClass("disableLetter").css("color", "#B80F0A").css("text-decoration", "underline").css("font-weight", "bold");;
+            $("#wordContainer td#All").removeClass("disableLetter").css("color", "#f26c5b").css("text-decoration", "underline").css("font-weight", "bold");;
             for (var i = 0; i < __selectedAlphapets.length; i++) {
                 //console.log(__selectedAlphapets[i]);
                 $("#wordContainer td#" + __selectedAlphapets[i]).removeClass("disableLetter");
@@ -129,7 +129,7 @@ function Glossary() {
                 __$cAlphabetClass.on("mouseout", __onAlphabetsMouseOut);
                 $(aEvent.currentTarget).off("mouseover");
                 $(aEvent.currentTarget).off("mouseout");
-                $(aEvent.currentTarget).removeAttr("style").css("color", "#B80F0A").css("text-decoration", "underline").css("font-weight", "bold");
+                $(aEvent.currentTarget).removeAttr("style").css("color", "#f26c5b").css("text-decoration", "underline").css("font-weight", "bold");
                 __$iSearchBox.val("");
                 __$cDescMedNameContainer.html("");
                 __$cMedDescContainer.html("");
@@ -142,7 +142,7 @@ function Glossary() {
         /*------------------------------on Alphabet Mouse Over function ------------------------- */
     var __onAlphabetsMouseOver = function(aEvent) {
             if ($(aEvent.currentTarget).hasClass("disableLetter") == false) {
-                $(aEvent.currentTarget).removeAttr("style").css("color", "#B80F0A").css("text-decoration", "underline").css("font-weight", "bold");
+                $(aEvent.currentTarget).removeAttr("style").css("color", "#f26c5b").css("text-decoration", "underline").css("font-weight", "bold");
             }
         }
         /*------------------------------on Alphabet Mouse Out function ------------------------- */
