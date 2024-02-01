@@ -2770,7 +2770,7 @@ return_case_button_vital:hover {
 .modalContent {
     width: 510px;
     height: 380px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 ul.non-bullet {
     margin-top: 10px;

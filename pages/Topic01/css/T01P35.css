@@ -228,7 +228,7 @@ display :none;
 .imgSubCnt_03 {
     position: absolute;
     left: 670px;
-    top: 50px;
+    top: 3px;
     width: 340px;
     height: 267px;
     /* background-color: white; */
@@ -245,11 +245,11 @@ display :none;
     height: 317px;
     position: absolute;
     right: 25px;
-    top: 0px;
+    /* top: 0px; */
     /* background-color: white; */
     border-radius: 25px;
     left: 670px;
-    top: 14px;
+    top: -15px;
 }
 .imgSubCnt_01{
     top: 32px !important;
@@ -257,7 +257,7 @@ display :none;
 #clsSubImage14, #clsSubImage15  {
     width: 100%;
     height: 100%;
-    top: 5px;
+    top: 30px;
 }
 #clsSubImage14 .subFirstImage{
     width: 324px;
@@ -280,20 +280,21 @@ display :none;
     position: absolute;
     width: 100%;
     text-align: center;
+    font-size: 16px;
 }
 .desc.four{
-    bottom: -55px;
+    bottom: -33px;
 }
 .alertIconBox {
     position: absolute;
     width: 955px;
     left: 20px;
     top: 320px;
-    height: 57px;
+    height: 67px;
     background: #FFFFFF;
     border: 1px solid #F26C5B;
     border-radius: 25px;
-    opacity:0;
+    opacity: 0;
 }
 #clsSubImage0{
 
@@ -518,9 +519,9 @@ section {
     /* padding-top: 15px; */
 }
 ul.bullet {
-    padding-top: 10px;
+    padding-top: 14px;
     width: 617px;
-    /* padding: 2px; */
+    /* padding: 22px; */
     font-size: 14px;
     background-color: white;
     height: 317px;
@@ -881,13 +882,13 @@ width: 195px;
 }
 #imgPopupCnt7{
     width: 263px;
-    height: 387px;
+    height: 386px;
     top: 25px;
     border-radius:25px
 }
 #imgPopupCnt8{
     width: 375px;
-    height: 384px;
+    height: 383px;
     top: 27px;
     border-radius:25px
 }
@@ -924,13 +925,16 @@ width: 195px;
 }
 .heading {
     margin-left: 30px;
+    font-size: 16px;
+    text-align: center;
+    margin-top:6px
 }
 #imgPopup1{
     background: url('../../../pages/images/Topic01/T01P35/01_lg.png') no-repeat;
     background-size: cover;
     border-radius: 25px;
-    height: 250px;
-
+    height: 252px;
+    width: 385px;
 }
 #imgPopup2{
     background: url('../../../pages/images/Topic01/T01P35/02_lg.png') no-repeat;
@@ -943,7 +947,7 @@ width: 195px;
     background: url('../../../pages/images/Topic01/T01P35/03_lg.png') no-repeat;
     background-size: cover;
     border-radius: 25px;
-    height: 438px;
+    height: 439px;
 }
 #imgPopup4{
     background: url('../../../pages/images/Topic01/T01P35/04_lg.png') no-repeat;
@@ -973,7 +977,7 @@ width: 195px;
     background-size: contain;
     height: 383px;
     border-radius: 25px;
-    
+    width: 383px;
 }
 #imgPopup9{
     background: url('../../../pages/images/Topic01/T01P35/09_lg.png') no-repeat;
@@ -1022,6 +1026,7 @@ width: 195px;
     background: url('../../../pages/images/Topic01/T01P35/15_lg.png') no-repeat;
     background-size: contain;
     border-radius: 25px;
+    width: 390px;
 }
 #imgPopupCnt14 .closepopup{
     bottom:40px;
@@ -1039,10 +1044,10 @@ width: 195px;
 
 .warning {
     position: absolute;
-    width: 42px;
-    height: 40px;
-    top:8px;
-    left: 20px;
+    width: 65px;
+    height: 65px;
+    top: 1px;
+    left: 12px;
     background: url(../../images/Topic01/T01P35/caution.png);
     background-size: cover;
 }
@@ -1206,7 +1211,7 @@ width: 195px;
     left: 127px;
     background-position: left;
     height: 36px;
-    background: #FFFFFF;
+    /* background: #FFFFFF; */
     border-radius: 6px;
     position: relative;
     width: 698px;
@@ -1272,7 +1277,7 @@ width: 195px;
     position: absolute;
     width: 90%;
     left: 86px;
-    top: 8px;
+    top: 12px;
     font-size: 16px;
     font-family: OpenSansRegular;
     font-style: initial;
@@ -1722,7 +1727,7 @@ ul.bullet li ul li:before {
 .viewed {
     background: #acacac url(../../images/common/chkMark.png) no-repeat;
     background-position:4% center;
-    color: #FFFFFF;
+    color: #000000;
 }
 .viewed.clsActive {
     background: #3A5569 url(../../images/common/chkMark.png) no-repeat;

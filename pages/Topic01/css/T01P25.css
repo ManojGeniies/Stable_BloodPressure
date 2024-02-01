@@ -3116,7 +3116,7 @@ return_case_button_vital:hover {
 .leftBottom {
     position: relative;
     height: 252px;
-    top:215px;
+    /* top:215px; */
 }
 
 .leftBottom h3 {
