@@ -49,7 +49,7 @@ var updateContentArray = [
         event: "",
         show: "",
         hide: "",
-        transcript: "Baby Conrad is now 5 hours old. He was just transferred to the warmer because his mother was concerned that he was breathing fast. Review his vital signs and then click Next to continue."
+        transcript: "Baby Conrad is now 5 hours old. He was just transferred to the warmer because his mother was concerned that he was breathing fast. Review his vital signs."
     },
 ];
 

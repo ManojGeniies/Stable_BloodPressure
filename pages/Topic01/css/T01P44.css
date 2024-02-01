@@ -936,7 +936,7 @@
         font-size: 18px;
         display: none;
         position: relative !important;
-        color: #B80F0A !important;
+        color: #F26C5B !important;
         text-align: center !important;
         top: 15px !important;
         left: 0!important;
@@ -1099,4 +1099,8 @@ ul.bullet {
 }
 #boxC3 .clsPatch{
     line-height: 23px;
+}
+
+.txt{
+    font-weight: 100;
 }
