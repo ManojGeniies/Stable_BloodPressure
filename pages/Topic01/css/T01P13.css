@@ -280,10 +280,10 @@
         }
         .warning {
             position: absolute;
-            width: 70px;
-            height: 68px;
-            top: 42px;
-            left: 20px;
+            width: 65px;
+            height: 65px;
+            top: 60px;
+            left: 30px;
             background: url(../../../pages/images/Topic01/T01P13/caution.png);
             display: none;
         }
@@ -994,13 +994,13 @@ ul.bullet {
 }
 #clsSubImage2 {
     width:100%;
-    top:20px;
+    top:30px;
     position: absolute;
 }
 .showlist7 {
     width: 40%;
     float: left;
-    margin-left: 5%;
+    margin-left: 4%;
 }
 .showlist8 {
     width: 38%;

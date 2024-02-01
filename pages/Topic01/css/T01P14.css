@@ -1025,7 +1025,7 @@ ul.bullet {
 }
 
 #clsSubImage2 {
-    width: 28%;
+    width: 25%;
     margin: 35px;
     top: 10px;
     right: 0;
@@ -1036,7 +1036,7 @@ ul.bullet {
     border-radius: 25px;
     background: #dde4eb;
     padding: 15px;
-    line-height: 28px;
+    line-height: 24px;
 }
 
 ul.bullet li ul li:before {
@@ -1046,4 +1046,14 @@ ul.bullet li ul li:before {
 .OptionTxtCLSS:before,
 ul.bullet li:before {
     top: 4px;
+}
+.showlist1{
+    font-size: 14px;
+}
+.break{
+    font-size: 14px !important;
+}
+
+.bold{
+    font-size: 16px !important ;
 }

@@ -917,7 +917,7 @@ width: 195px;
     position: absolute;
     width: 65px;
     height: 65px;
-    /* top: 33px; */
+     top: 15px; 
     left: 18px;
     background: url(../../../media/images/new/caution.png);
     background-size: cover;
@@ -1125,7 +1125,7 @@ width: 195px;
     opacity: 0;
     height: 85px;
     top: 151px;
-    width: 635px;
+    width: 610px;
     left: 325px;
     /* border-radius: 25px; */
     /* border: 1px solid #F26C5B; */
@@ -1184,7 +1184,7 @@ width: 195px;
     position: absolute;
     width: 533px;
     left: 82px;
-    top: 18px;
+    top: 25px;
     font-size: 14px;
     font-family: OpenSansRegular;
     font-style: initial;
