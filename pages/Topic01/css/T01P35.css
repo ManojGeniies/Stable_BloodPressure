@@ -245,11 +245,11 @@ display :none;
     height: 317px;
     position: absolute;
     right: 25px;
-    top: 0px;
+    /* top: 0px; */
     /* background-color: white; */
     border-radius: 25px;
     left: 670px;
-    top: 14px;
+    top: -15px;
 }
 .imgSubCnt_01{
     top: 32px !important;
@@ -257,7 +257,7 @@ display :none;
 #clsSubImage14, #clsSubImage15  {
     width: 100%;
     height: 100%;
-    top: 5px;
+    top: 30px;
 }
 #clsSubImage14 .subFirstImage{
     width: 324px;
@@ -524,7 +524,7 @@ ul.bullet {
     /* padding: 22px; */
     font-size: 14px;
     background-color: white;
-    height: 245px;
+    height: 317px;
     border-radius: 25px;
 }
 ul.bullet li {
