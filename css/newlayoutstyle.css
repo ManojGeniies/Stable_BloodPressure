@@ -1,12 +1,12 @@
-
-input, textarea {
+input,
+textarea {
     -webkit-user-select: text;
     -khtml-user-select: text;
     -moz-user-select: text;
     -ms-user-select: text;
     user-select: text;
 
-  }
+}
 
 
 #id_transcriptBox {
@@ -14,7 +14,7 @@ input, textarea {
     height: 70px;
     width: 593px;
     left: 253px;
-    top: 594px;
+    top: 599px;
     font-family: OpenSansRegular;
     background-color: #FFFFFF;
     z-index: 99999;
@@ -23,6 +23,7 @@ input, textarea {
     border-right: 1px solid;
     border-left: 1px solid;
 }
+
 #transcriptHelp {
     position: absolute;
     height: 61px;
@@ -58,8 +59,9 @@ input, textarea {
     overflow-y: scroll;
     line-height: 17px;
     padding-right: 8px;
-    z-index:99999;
+    z-index: 99999;
 }
+
 #transcripttextHelp {
     position: absolute;
     width: 97.9%;
@@ -74,58 +76,72 @@ input, textarea {
     padding-right: 8px;
 }
 
- /* width */
-    
- #transcripttext::-webkit-scrollbar, #transcripttextHelp::-webkit-scrollbar {
+/* width */
+
+#transcripttext::-webkit-scrollbar,
+#transcripttextHelp::-webkit-scrollbar {
     width: 8px;
 }
 
-#transcripttext::-ms-scrollbar, #transcripttextHelp::-ms-scrollbar {
+#transcripttext::-ms-scrollbar,
+#transcripttextHelp::-ms-scrollbar {
     width: 8px;
 }
 
-#transcripttext::-moz-scrollbar, #transcripttextHelp::-moz-scrollbar {
+#transcripttext::-moz-scrollbar,
+#transcripttextHelp::-moz-scrollbar {
     width: 8px;
 }
+
 /* Track */
 
-#transcripttext::-webkit-scrollbar-track, #transcripttextHelp::-webkit-scrollbar-track {
+#transcripttext::-webkit-scrollbar-track,
+#transcripttextHelp::-webkit-scrollbar-track {
     /* box-shadow: inset 0 0 5px grey; */
     border-radius: 5px;
 }
 
-#transcripttext::-ms-scrollbar-track, #transcripttextHelp::-ms-scrollbar-track {
+#transcripttext::-ms-scrollbar-track,
+#transcripttextHelp::-ms-scrollbar-track {
     /* box-shadow: inset 0 0 5px grey; */
     border-radius: 5px;
 }
 
-#transcripttext::-moz-scrollbar-track, #transcripttextHelp::-moz-scrollbar-track {
+#transcripttext::-moz-scrollbar-track,
+#transcripttextHelp::-moz-scrollbar-track {
     /* box-shadow: inset 0 0 5px grey; */
     border-radius: 5px;
 }
+
 /* Handle */
 
-#transcripttext::-webkit-scrollbar-thumb, #transcripttextHelp::-webkit-scrollbar-thumb {
+#transcripttext::-webkit-scrollbar-thumb,
+#transcripttextHelp::-webkit-scrollbar-thumb {
     background: #545454;
     border-radius: 5px;
 }
 
-#transcripttext::-ms-scrollbar-thumb, #transcripttextHelp::-ms-scrollbar-thumb {
+#transcripttext::-ms-scrollbar-thumb,
+#transcripttextHelp::-ms-scrollbar-thumb {
     background: #545454;
     border-radius: 5px;
 }
 
-#transcripttext::-moz-scrollbar-thumb, #transcripttextHelp::-moz-scrollbar-thumb {
+#transcripttext::-moz-scrollbar-thumb,
+#transcripttextHelp::-moz-scrollbar-thumb {
     background: #545454;
     border-radius: 5px;
 }
+
 /* Handle on hover */
 
-#transcripttext::-webkit-scrollbar-thumb:hover, #transcripttextHelp::-webkit-scrollbar-thumb:hover {
+#transcripttext::-webkit-scrollbar-thumb:hover,
+#transcripttextHelp::-webkit-scrollbar-thumb:hover {
     background: #545454;
 }
 
-#transcripttext::-ms-scrollbar-thumb:hover, #transcripttextHelp::-ms-scrollbar-thumb:hover {
+#transcripttext::-ms-scrollbar-thumb:hover,
+#transcripttextHelp::-ms-scrollbar-thumb:hover {
     background: #545454;
 }
 
@@ -144,14 +160,14 @@ span.tooltip {
     width: 68px;
     height: 66px;
     left: 0px;
-    top: 1px;
+    top: 0px;
     position: absolute;
 }
 
 .ClsToolbtn span.ClsToolbtnIcon {
     position: absolute;
     width: 64px;
-    height: 65px;
+    height: 67px;
     top: 0px;
     /* left: 20px; */
     background: url("../media/images/player/common/speed.png") no-repeat;
@@ -173,7 +189,7 @@ span.tooltip {
 .ClsToolbtnSelected span.ClsToolbtnIcon {
     background: url("../media/images/player/common/speedvariation.png") no-repeat !important;
     /* background-position: -32px 0px !important; */
-    background-size:cover !important;
+    background-size: cover !important;
 }
 
 .ClsToolbtnSelected {
@@ -209,7 +225,8 @@ span.tooltip {
     display: none;
     left: 12px;
 }
-.Stable{
+
+.Stable {
     background: url(../media/images/new/Stablebg.png) no-repeat;
     background-size: cover;
     width: 129px;
@@ -219,7 +236,8 @@ span.tooltip {
     top: 0;
 
 }
-.Stable-text{
+
+.Stable-text {
     background: url(../media/images/new/Stable.png) no-repeat;
     background-size: contain;
     width: 106px;
@@ -228,6 +246,7 @@ span.tooltip {
     left: 76px;
     top: 18px;
 }
+
 #clsHelpBtn {
     position: absolute;
     cursor: pointer;
@@ -243,7 +262,8 @@ span.tooltip {
     background-size: cover;
 
 }
-#clsHelpBtn :hover{
+
+#clsHelpBtn :hover {
     position: absolute;
     cursor: pointer;
     width: 88px;
@@ -407,6 +427,7 @@ span.clsPlayPauseBtnIcon {
 }
 
 @media all and (max-device-width: 768px) {
+
     #clsAudioOnBtn,
     #clsAudioOffBtn {
         display: none;
@@ -516,7 +537,7 @@ span.clsPlayPauseBtnIcon {
     background-position: 0px 0;
     width: 64px;
     height: 65.5px;
-    top:-1px;
+    top: -1px;
     transition: all 0.2s;
     z-index: 5;
     /* border-radius: 50%; */
@@ -560,7 +581,7 @@ span.clsPlayPauseBtnIcon {
     /* border-radius: 50%; */
     position: absolute;
     top: 0px;
-    
+
     display: block;
     background-size: cover;
 }
@@ -686,13 +707,13 @@ span.clsPlayPauseBtnIcon {
 #id_sliderContainer a {
     outline: 0 !important;
     background-color: #F26C5B;
-    height: 12px;
-    width: 12px;
-    top: -5px;
+    height: 11px;
+    width: 11px;
+    top: -6px;
     LEFT: 8PX;
     border: 2px solid #F26C5B;
     border-radius: 15px;
-    z-index:5;
+    z-index: 5;
 }
 
 #clsMnuBtn {
@@ -733,7 +754,7 @@ span.clsPlayPauseBtnIcon {
     height: 62px !important;
     left: 0px !important;
     top: 0px !important;
-    
+
 }
 
 .deactivMenu {
@@ -781,7 +802,7 @@ span.clsPlayPauseBtnIcon {
     position: absolute;
     width: 33px;
     height: 33px;
-    top:8px;
+    top: 8px;
     left: 130px;
     background: url(../media/images/player/common/Video_Resources_Normal.png) no-repeat;
     transform: matrix(1, 0, 0, 1, 0, 0);
@@ -836,8 +857,8 @@ span.clsPlayPauseBtnIcon {
     position: absolute;
     width: 33px;
     height: 30px;
-    top:7px;
-    left:76px;
+    top: 7px;
+    left: 76px;
     background: url(../media/images/player/common/Resources_Normal.png) no-repeat;
     transform: matrix(1, 0, 0, 1, 0, 0);
     -ms-transform: matrix(1, 0, 0, 1, 0, 0);
@@ -866,7 +887,7 @@ span.clsPlayPauseBtnIcon {
     position: absolute;
     width: 33px;
     height: 33px;
-    top:6px;
+    top: 6px;
     left: 17px;
     background: url(../media/images/player/common/Glossary_normal.png) no-repeat;
     transform: matrix(1, 0, 0, 1, 0, 0);
@@ -876,6 +897,7 @@ span.clsPlayPauseBtnIcon {
     background-position: center center;
     background-size: contain;
 }
+
 #clsGlosBtn span,
 #clsRefBtn span,
 #clsVideoRefBtn span,
@@ -886,16 +908,20 @@ span.clsPlayPauseBtnIcon {
     left: -12px;
     width: 57px;
 }
-#clsRefBtn span{
-    top:32px;
+
+#clsRefBtn span {
+    top: 32px;
     left: -11px;
 }
-#clsVideoRefBtn span{
-    top:30px;
+
+#clsVideoRefBtn span {
+    top: 30px;
 }
+
 span.cIcons {
     display: block !important;
 }
+
 .no-touch #clsGlosBtn:hover:not(.clsGlosDisabled) {
     background: url("../media/images/player/common/Glossary_normal.png") no-repeat;
     transform: matrix(1.1, 0, 0, 1.1, 0, 0);
@@ -944,7 +970,7 @@ span.cIcons {
     text-align: center;
     width: 101px;
     left: -36px;
-    
+
 }
 
 .back-btn {
@@ -966,7 +992,8 @@ span.cIcons {
     transition: all 0.2s;
     background-size: cover;
 }
-.Resourses{
+
+.Resourses {
     position: absolute;
     width: 88px;
     height: 62px;
@@ -980,7 +1007,8 @@ span.cIcons {
     /* border-radius: 50%; */
     background-size: cover;
 }
-.Resourses:hover{
+
+.Resourses:hover {
     position: absolute;
     width: 88px;
     height: 62px;
@@ -1009,6 +1037,7 @@ span.cIcons {
     /* border-radius: 50%; */
     background-size: cover;
 }
+
 /* #clsExitBtn:hover {
     position: absolute;
     width: 88px;
@@ -1019,9 +1048,9 @@ span.cIcons {
     background: url(../media/images/new/Exithover.png) no-repeat;
     background-position: 0px 0px;
     /* transition: all 0.2s; */
-    
-    /* border-radius: 50%; }*/
-    
+
+/* border-radius: 50%; }*/
+
 
 
 #clsExitBtn span {
@@ -1113,9 +1142,11 @@ span.cIcons {
     font-weight: bold;
     /* text-transform: capitalize; */
 }
-.titleCase{
+
+.titleCase {
     text-transform: capitalize;
 }
+
 .close_txt {
     position: absolute;
     width: 30px;
@@ -1182,18 +1213,18 @@ span.instructions {
     font-weight: normal !important;
 }
 
-.bluecolor{
+.bluecolor {
     color: #4D667B;
 }
 
-.instructions{
+.instructions {
     color: #4D667B;
     font-size: 16px !important;
     font-weight: normal !important;
     font-family: OpenSansRegular;
 }
 
-.secondSectionIntro{
+.secondSectionIntro {
     font-size: 16px !important;
     font-family: OpenSansRegular !important;
 }
@@ -1347,8 +1378,8 @@ span.instructions {
     top: 50px;
     width: 100%;
     height: 416px;
-    /* z-index: 999; */bo
-    border-radius: 0 0 10px 10px;
+    /* z-index: 999; */
+    bo border-radius: 0 0 10px 10px;
 }
 
 #pageRefTitleBar_id {
@@ -1418,18 +1449,20 @@ span.instructions {
     display: none;
 }
 
-#transcripttext::-webkit-scrollbar{
+#transcripttext::-webkit-scrollbar {
     width: 8px;
 }
 
-#transcripttext::-ms-scrollbar{
+#transcripttext::-ms-scrollbar {
     width: 8px;
 }
 
-#transcripttext::-moz-scrollbar{
+#transcripttext::-moz-scrollbar {
     width: 8px;
 }
-.small_expand, .open_map{
+
+.small_expand,
+.open_map {
     background: url(../pages/images/common/small_expand.png) !important;
     width: 28px;
     height: 28px !important;
@@ -1447,16 +1480,19 @@ span.instructions {
     display: none;
     z-index: 1000;
 }
-.small_expand{
+
+.small_expand {
     bottom: 12px;
-   right: 12px;
+    right: 12px;
 }
 
-.small_expand:hover, .open_map:hover {
+.small_expand:hover,
+.open_map:hover {
     background: url(../pages/images/common/small_expand_hover.png) !important;
 }
 
-.closepopup, .open_map_close{
+.closepopup,
+.open_map_close {
     position: absolute;
     width: 92px;
     height: 47px;
@@ -1482,6 +1518,7 @@ ul.list_1 li:before {
     top: 7px;
     left: -15px;
 }
+
 .indicateStyle {
     color: #4D667B;
     font-style: italic;

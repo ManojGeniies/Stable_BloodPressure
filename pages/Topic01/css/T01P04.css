@@ -93,7 +93,7 @@
 
 .titleText img {
     position: relative;
-    top: 3px;
+    top: 4px;
     left: -12px;
     width: 34px;
 }
@@ -264,10 +264,10 @@
 
 .titleText {
     position: absolute;
-    font-size: 20px;
+    font-size: 18px;
     font-family: OpenSansSemiBold;
     line-height: 25px;
-    color: #5B5B5B;
+    color: #000;
     top: 20px;
     left: 40px;
     width: 100%;
@@ -350,7 +350,7 @@
 }
 
 .modalContent {
-    width: 516px;
+    width: 515px;
     top: 32px;
     border: 1px solid #000;
     border-radius: 25px;
@@ -494,6 +494,6 @@
     right: 65px;
 }
 
-.bullet{
-    font-size: 14px !important; 
+.bullet {
+    font-size: 14px !important;
 }

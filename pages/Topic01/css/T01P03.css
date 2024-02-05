@@ -93,7 +93,7 @@
 
 .titleText img {
     position: relative;
-    top: 3px;
+    top: 4px;
     left: -12px;
     width: 34px;
 }
@@ -101,7 +101,7 @@
 
 .sectionContent {
     position: absolute;
-    top: 67px;
+    top: 70px;
     height: 423px;
     width: 1073px;
     left: 10px;
@@ -136,7 +136,7 @@
     position: absolute;
     width: 790px;
     height: 465px;
-    top: 5px;
+    top: 0px;
     left: 275px;
 }
 
@@ -257,10 +257,10 @@
 
 .titleText {
     position: absolute;
-    font-size: 20px;
+    font-size: 18px;
     font-family: OpenSansSemiBold;
     line-height: 25px;
-    color: #5B5B5B;
+    color: #000;
     top: 20px;
     left: 40px;
     width: 100%;
@@ -488,6 +488,6 @@
     right: 65px;
 }
 
-.bullet{
-    font-size: 14px !important; 
+.bullet {
+    font-size: 14px !important;
 }

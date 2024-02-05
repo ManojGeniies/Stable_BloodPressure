@@ -93,7 +93,7 @@
 
 .titleText img {
     position: relative;
-    top: 3px;
+    top: 4px;
     left: -12px;
     width: 34px;
 }
@@ -173,7 +173,7 @@
 }
 
 .modalContent {
-    width: 521px;
+    width: 516px;
     top: 32px;
     border-radius: 25px;
     border: 1px solid #000;
@@ -253,10 +253,10 @@
 
 .titleText {
     position: absolute;
-    font-size: 20px;
+    font-size: 18px;
     font-family: OpenSansSemiBold;
     line-height: 25px;
-    color: #5B5B5B;
+    color: #000;
     top: 20px;
     left: 40px;
     width: 100%;
@@ -333,7 +333,7 @@
 
 #imgPopup0 {
     background: url(../../../pages/images/Topic01/T01P05/01_lg.png) no-repeat;
-    background-size: contain;
+    background-size: cover;
     border-radius: 25px 25px 0px 0px;
 }
 
@@ -476,6 +476,6 @@
     right: 65px;
 }
 
-.bullet{
-    font-size: 14px !important; 
+.bullet {
+    font-size: 14px !important;
 }

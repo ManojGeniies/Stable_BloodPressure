@@ -472,7 +472,7 @@ section {
     height: 344px;
     top: 82px;
     border-radius: 25px;
-    left: -10px;
+    left: -3px;
     /* background: #FFFFFF; */
     /* -webkit-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75);
@@ -497,6 +497,6 @@ ul.bullet li ul li:before {
     top: 8px;
 }
 
-ul.bullet{
+ul.bullet {
     font-size: 14px !important;
 }
